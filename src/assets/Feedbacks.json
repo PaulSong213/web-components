@@ -1,0 +1,82 @@
+[
+  {
+    "message" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis explicabo eaque sit assumenda facere vitae id eum a, quisquam iure veritatis eveniet praesentium fuga illum labore repudiandae cum quasi.",
+    "image" : "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+    "senderName" : "John Smith",
+    "senderTitle" : "Front-end developer",
+    "backgoundClass" : "from-purple-500 via-purple-600 to-purple-600",
+    "qouteColor" : "text-purple-300"
+  },
+  {
+    "message" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis explicabo eaque sit assumenda ",
+    "image" : "https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80",
+    "senderName" : "John Smith",
+    "senderTitle" : "Front-end developer",
+    "backgoundClass" : "from-green-500 via-green-600 to-green-500",
+    "qouteColor" : "text-green-300"
+  },
+  {
+    "message" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis explicabo eaque sit assumenda Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis explicabo eaque sit assumenda Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis explicabo eaque sit assumenda ",
+    "image" : "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60",
+    "senderName" : "John Smith",
+    "senderTitle" : "Front-end developer",
+    "backgoundClass" : "from-yellow-600 via-yellow-500 to-yellow-500",
+    "qouteColor" : "text-yellow-300"
+  },
+  {
+    "message" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis explicabo eaque sit assumenda Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    "image" : "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+    "senderName" : "John Smith",
+    "senderTitle" : "Front-end developer",
+    "backgoundClass" : "from-blue-600 via-blue-500 to-blue-500",
+    "qouteColor" : "text-blue-300"
+  },
+  {
+    "message" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis explicabo eaque sit assumenda Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    "image" : "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80",
+    "senderName" : "John Smith",
+    "senderTitle" : "Front-end developer",
+    "backgoundClass" : "from-pink-600 via-pink-500 to-pink-500",
+    "qouteColor" : "text-pink-300"
+  },
+  {
+    "message" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis explicabo eaque sit assumenda facere vitae id eum a, quisquam iure veritatis eveniet praesentium fuga illum labore repudiandae cum quasi.",
+    "image" : "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60",
+    "senderName" : "John Smith",
+    "senderTitle" : "Front-end developer",
+    "backgoundClass" : "from-purple-500 via-purple-600 to-purple-600",
+    "qouteColor" : "text-purple-300"
+  },
+  {
+    "message" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis explicabo eaque sit assumenda ",
+    "image" : "https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80",
+    "senderName" : "John Smith",
+    "senderTitle" : "Front-end developer",
+    "backgoundClass" : "from-green-500 via-green-600 to-green-500",
+    "qouteColor" : "text-green-300"
+  },
+  {
+    "message" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis explicabo eaque sit assumenda Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis explicabo eaque sit assumenda Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis explicabo eaque sit assumenda ",
+    "image" : "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGVyc29ufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60",
+    "senderName" : "John Smith",
+    "senderTitle" : "Front-end developer",
+    "backgoundClass" : "from-yellow-600 via-yellow-500 to-yellow-500",
+    "qouteColor" : "text-yellow-300"
+  },
+  {
+    "message" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis explicabo eaque sit assumenda Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    "image" : "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=300&q=60",
+    "senderName" : "John Smith",
+    "senderTitle" : "Front-end developer",
+    "backgoundClass" : "from-blue-600 via-blue-500 to-blue-500",
+    "qouteColor" : "text-blue-300"
+  },
+  {
+    "message" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur omnis explicabo eaque sit assumenda Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    "image" : "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80",
+    "senderName" : "John Smith",
+    "senderTitle" : "Front-end developer",
+    "backgroundClass" : "from-pink-600 via-pink-500 to-pink-500",
+    "qouteColor" : "text-pink-300"
+  }
+]
