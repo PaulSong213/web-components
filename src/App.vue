@@ -1,23 +1,22 @@
 <template>
   <section>
-
-    <div id="nav" class=" absolute z-50 w-10 bg-green-500 bottom-10 right-10 rounded-full flex justify-between p-1 flex-col space-y-1 text-white text-3xl bg-opacity-50 shadow-xl">
-      <div @click="moveToNextPath(false)" class="h-8 w-full rounded-t-full hover:bg-green-500 cursor-pointer active:bg-green-400">
-        <ion-icon name="caret-up-outline"></ion-icon>
+    <div id="nav" v-if="!isDevelopment" class=" absolute z-50 bg-green-500 bottom-10 right-10 rounded-full flex justify-between p-1 space-x-1 text-white text-5xl bg-opacity-50 shadow-xl">
+      <div @click="moveToNextPath(false)" class="h-12  w-full rounded-l-full hover:bg-green-500 cursor-pointer active:bg-green-400 transition-all">
+        <ion-icon name="caret-back-outline"></ion-icon>
       </div>
 
       <transition name="fade-ups">
-        <div v-if="currentIndex > 0" class="text-center text-xs flex justify-center select-none">
+        <div v-if="currentIndex > 0" class="text-center text-base flex flex-col select-none my-auto">
           <span>{{currentIndex}}</span>
-          <span class="table my-auto" style="font-size: 0.50rem;line-height: 0.75rem;">/ {{listPath.length - 1}} </span>
+          <span class="table my-auto" style="font-size: 0.50rem;line-height: 0.75rem;">{{listPath.length - 1}} </span>
         </div>
       </transition>
-      <div @click="moveToNextPath(true)" class="h-8 w-full rounded-b-full hover:bg-green-500 cursor-pointer active:bg-green-400">
-        <ion-icon name="caret-down-outline"></ion-icon>
+      <div @click="moveToNextPath(true)" class="h-12  w-full rounded-r-full hover:bg-green-500 cursor-pointer active:bg-green-400 transition-all">
+        <ion-icon name="caret-forward-outline"></ion-icon>
       </div>
     </div>
 
-    <router-view class="z-10" v-slot="{ Component }">
+    <router-view v-slot="{ Component }">
         <component :is="Component" />
     </router-view>
   </section>
@@ -78,40 +77,15 @@ export default {
 </script>
 
 <style scoped>
-.page-slide-forward-enter-active {
-  transition: all 0.3s ease-out;
-  overflow-y:hidden;
-  max-height: 100vh;
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 100ms linear;
 }
 
-.page-slide-forward-leave-active {
-  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
-  overflow-y:hidden;
-  max-height: 100vh;
-}
 
-.page-slide-forward-enter-from,
-.page-slide-forward-leave-to {
-  transform: translateY(50%);
-  opacity: 0.7;
-}
-
-.page-slide-backward-enter-active {
-  transition: all 0.3s ease-out;
-  overflow-y:hidden;
-  max-height: 100vh;
-}
-
-.page-slide-backward-leave-active {
-  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
-  overflow-y:hidden;
-  max-height: 100vh;
-}
-
-.page-slide-backward-enter-from,
-.page-slide-backward-leave-to {
-  transform: translateY(-50%);
-  opacity: 0.7;
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 
 </style>

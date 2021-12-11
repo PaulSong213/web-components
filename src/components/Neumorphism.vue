@@ -83,10 +83,10 @@ export default {
   @keyframes pops {
     0% {
       opacity: 0;
-    },
+    }
     70% {
       transform: scale(120%);
-    },
+    }
     100% {
       opacity: 1;
       transform: scale(100%);

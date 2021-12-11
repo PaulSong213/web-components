@@ -7,6 +7,16 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/todo-app',
+    name: 'Todo App',
+    component: () => import('../components/TodoApp.vue')
+  },
+  {
+    path: '/floating-label',
+    name: 'Floating Label',
+    component: () => import('../components/FloatingLabel.vue')
+  },
+  {
     path: '/password-toggle',
     name: 'Password Toggle',
     component: () => import('../components/PasswordToggle.vue')
@@ -112,7 +122,8 @@ const routes = [
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes
+  routes,
+  
 })
 
 export default router
