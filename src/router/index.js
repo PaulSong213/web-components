@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/grid-theme',
+    name: 'Grid Theme',
+    component: () => import('../components/GridTheme.vue')
+  },
+  {
     path: '/todo-app',
     name: 'Todo App',
     component: () => import('../components/TodoApp.vue')
