@@ -6,7 +6,7 @@
         
       <transition name="slide">
         <section v-if="!isAgreed">
-          <img src="3d-person.png" alt="Business Woman">
+          <img src="/3d-person.png" alt="Business Woman">
           <h1 class="text-xl text-blue-500">
             PRIVACY POLICY
           </h1>
