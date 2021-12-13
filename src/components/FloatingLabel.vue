@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col justify-center h-screen bg-rose-500 bg-gradient-to-br from-red-500 via-rose-500 to-red-500">
+  <section class="flex flex-col justify-center h-screen bg-rose-500 bg-gradient-to-br from-red-500 via-rose-500 to-red-500 p-4">
     <div class="bg-white w-full max-w-md py-4 px-8 h-44 rounded-lg mx-auto flex flex-col justify-center">
       <h6 class="text-rose-500 font-bold mb-6 text-2xl">Sign up</h6>
       <div class="relative">

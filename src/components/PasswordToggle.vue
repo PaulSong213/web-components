@@ -1,5 +1,5 @@
 <template>
-  <section class="h-screen bg-purple-500 flex flex-col justify-center">
+  <section class="h-screen bg-purple-500 flex flex-col justify-center p-4">
     <div class="w-full mx-auto max-w-sm  p-6 rounded-md bg-gray-900 space-x-1 grid grid-cols-12 text-xl gap-1 relative overflow-hidden">
       <div class="col-span-1 text-left z-20" :class="[isPasswordShowed ? 'text-gray-600' : 'text-gray-400','']">
         <ion-icon class="my-auto align-middle"  name="lock-closed"></ion-icon>

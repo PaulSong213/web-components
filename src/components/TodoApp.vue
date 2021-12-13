@@ -1,7 +1,7 @@
 <template>
-  <section class="h-screen bg-purple-400 bg-gradient-to-br from-pink-400 via-purple-400 to-pink-400 flex flex-col justify-center ">
+  <section class="h-screen bg-purple-400 bg-gradient-to-br from-pink-400 via-purple-400 to-pink-400 flex flex-col justify-center p-4">
     
-    <div class="bg-zinc-50 flex items-center justify-center w-full max-w-md mx-auto h-96 overflow-hidden rounded-xl relative px-8">
+    <div class="bg-zinc-50 flex items-center justify-center w-full max-w-md mx-auto h-96 overflow-auto rounded-xl relative px-4 sm:px-8">
       <div class="absolute w-full h-full z-10">
         <div class="relative w-full h-full">
           <div class="absolute top-24 left-24 w-40 h-40 bg-purple-300 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob"></div>
@@ -9,8 +9,8 @@
           <div class="absolute top-40 left-32 w-40 h-40 bg-pink-300 rounded-full mix-blend-multiply filter blur-2xl opacity-70 animate-blob animation-delay-4000"></div>
         </div>
       </div>
-      <div class="h-5/6 w-full z-20 space-y-4">
-        <h1 class="text-purple-500 font-black text-2xl mb-8">TODO App</h1>
+      <div class="h-5/6 w-full z-20 space-y-2 sm:space-y-4">
+        <h1 class="text-purple-500 font-black text-2xl mb-4 sm:mb-8">TODO App</h1>
         
         <transition-group name="fade-right-todo">
           <div v-for="(todo,index) in todos " :key="index" class="p-5 bg-white bg-opacity-30 hover:bg-opacity-60 rounded-lg flex items-center justify-between space-x-4 group hover:shadow-md transition-all">

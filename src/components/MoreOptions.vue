@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-green-400 h-screen flex flex-col justify-center">
+  <section class="bg-green-400 h-screen flex flex-col justify-center p-4">
 
     <div  class=" mx-auto w-36 h-36 rounded-full grid grid-cols-2 text-center pb-14 overflow-hidden text-xl text-green-800 absolute left-1/2 -translate-x-1/2 -mt-16 transform z-10 transition-all duration-700" :class="[isMoreOptionOpened ? 'rotate-0' : '-rotate-180 opacity-0','']">
       <div @click="isMoreOptionOpened = false" class="col-span-2 flex flex-col justify-center bg-white pt-1">
@@ -22,9 +22,9 @@
       </div>
     </div>
 
-    <nav class="grid grid-cols-5 w-full max-w-sm bg-white px-4 py-2 rounded-t-sm rounded-b-2xl mx-auto text-2xl gap-2 z-20">
+    <nav class="grid grid-cols-5 w-full max-w-sm bg-white px-4 py-2 rounded-t-sm rounded-b-2xl mx-auto text-xl sm:text-2xl gap-2 z-20">
       <div v-for="(icon,index) in navIcons" :key="index"  @click="setNewActive(index)" class="text-center  flex flex-col justify-center p-3 rounded-xl hover:bg-green-500 active:bg-green-400 transition-all duration-300 hover:text-green-50 active:scale-50 transform" :class="[activeIndex === index ? 'text-green-700 bg-opacity-0 cursor-default' : 'text-gray-500  bg-opacity-100 cursor-pointer' , '']">
-        <ion-icon  :class="[index === 2 ? 'text-4xl' : '','']" class="block m-auto" :name="icon"></ion-icon>
+        <ion-icon  :class="[index === 2 ? 'text-2xl sm:text-4xl' : '','']" class="block m-auto" :name="icon"></ion-icon>
       </div>
     </nav>
 

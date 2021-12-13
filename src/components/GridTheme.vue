@@ -1,31 +1,31 @@
 <template>
-  <section class="h-screen bg-purple-900  bg-gradient-to-br from-orange-400 via-pink-400 to-purple-300 flex flex-col justify-center">
+  <section class="h-screen bg-purple-900  bg-gradient-to-br from-orange-400 via-pink-400 to-purple-300 flex flex-col justify-center p-4">
 
-    <div class="bg-black w-full max-w-xl rounded-sm mx-auto p-5 text-white h-full  max-h-96 overflow-hidden flex">
+    <div class="bg-black w-full max-w-xl rounded-sm mx-auto p-5 text-white h-full  max-h-96 overflow-hidden flex ">
       <div class="grid grid-cols-12 w-full overflow-hidden">
-        <div class="col-span-8 border-l border-t border-b border-zinc-200 flex justify-start flex-row-reverse">
+        <div class="row-start-2 md:row-start-1 col-span-12 md:col-span-8 border-l border-t border-b border-zinc-200 flex justify-start flex-row-reverse">
 
           <div v-for="(team,index) in teams" :key="index" class="border border-l border-zinc-200 h-full flex overflow-hidden transition-all">
-            <div @click="currentOpenedIndex = index" class=" p-2 font-black text-xs flex flex-col justify-between h-full transition-all select-none" :class="[index !== currentOpenedIndex ? 'hover:bg-amber-200 hover:text-black  active:bg-amber-300 w-14 cursor-pointer' : '','' ]">
+            <div @click="currentOpenedIndex = index" class="p-0.5 md:p-2 font-black text-xs flex flex-col justify-between h-full transition-all select-none" :class="[index !== currentOpenedIndex ? 'hover:bg-amber-200 hover:text-black  active:bg-amber-300 w-14 cursor-pointer' : '','' ]">
               <h6>0{{(index + 1)}}</h6>
               <h6 v-if="index !== currentOpenedIndex" class="vertical-writing tracking-widest">{{team.name}}</h6>
             </div>
             
             <transition name="shrink">
               <div v-if="index === currentOpenedIndex" class="pr-8 flex flex-col justify-center transition-all w-40 ">
-                <div class="w-24 h-24 border-4 border-zinc-200 rounded-full overflow-hidden mx-auto">
+                <div class="w-16 md:w-24 h-16 md:h-24 border-4 border-zinc-200 rounded-full overflow-hidden mx-auto">
                   <img class="min-h-full min-w-full object-cover aspect-square" :src="team.image" alt="">
                 </div>
-                <h6 class="my-4 text-center font-black text-yellow-300 whitespace-nowrap">{{team.position}}</h6>
+                <h6 class="my-4 text-center font-black text-yellow-300 md:whitespace-nowrap">{{team.position}}</h6>
               </div>
             </transition>
 
           </div>
 
         </div>
-        <div class="col-span-4 py-4 pl-4 pr-0.5 border border-zinc-200 flex flex-col justify-between pt-16">
+        <div class="col-span-12 md:col-span-4 py-4 pl-4 pr-0.5 border border-zinc-200 flex flex-col justify-between pt-16">
           <h6 class="text-4xl font-black tracking-widest font-shadow text-yellow-300 uppercase">{{teams[currentOpenedIndex].name}}</h6>
-          <p class="text-xs">{{teams[currentOpenedIndex].description}}</p>
+          <p class="text-xs h-14 overflow-clip">{{teams[currentOpenedIndex].description}}</p>
         </div>
       </div>
     </div>

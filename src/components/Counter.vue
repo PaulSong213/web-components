@@ -1,8 +1,8 @@
 <template>
-  <section class="h-screen bg-purple-500 flex flex-col justify-center">
+  <section class="h-screen bg-purple-500 flex flex-col justify-center p-4">
 
-    <div class="max-w-lg bg-blue-50 mx-auto w-full py-24 rounded-2xl shadow-2xl">
-      <div class="flex w-max mx-auto relative">
+    <div class="max-w-lg bg-blue-50 mx-auto w-full py-24 rounded-2xl shadow-2xl flex justify-center">
+      <div class="flex w-max mx-auto relative transform scale-75 sm:scale-100 m-auto">
 
         <div @click="count--" class="bg-blue-400 hover:bg-blue-500 active:bg-blue-400 cursor-pointer select-none transition-all bg-opacity-90 text-9xl h-24 leading-10 py-4 pl-8 w-32 flex justify-start text-white rounded-full mr-20">
           <span class="my-auto font-roboto-mono mt-4">-</span>
