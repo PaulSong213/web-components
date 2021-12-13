@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div id="nav" v-if="isDevelopment" class=" absolute z-50 bg-green-500 bottom-10 right-10 rounded-full flex justify-between p-1 space-x-1 text-white text-5xl bg-opacity-50 shadow-xl">
+    <div id="nav" v-if="!isDevelopment" class=" absolute z-50 bg-green-500 bottom-10 right-10 rounded-full flex justify-between p-1 space-x-1 text-white text-5xl bg-opacity-50 shadow-xl">
       <div @click="moveToNextPath(false)" class="h-12  w-full rounded-l-full hover:bg-green-500 cursor-pointer active:bg-green-400 transition-all">
         <ion-icon name="caret-back-outline"></ion-icon>
       </div>
