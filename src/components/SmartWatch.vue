@@ -1,7 +1,7 @@
 <template>
   <section class="h-screen bg-gray-800 flex flex-col justify-center">
 
-    <div class="grid grid-cols-2 w-full max-w-sm mx-auto gap-y-5 text-white">
+    <div class="grid sm:grid-cols-2 w-full max-w-sm mx-auto gap-y-5 text-white">
       
       <!-- LOCKSREEN -->
       <div class="w-full">
@@ -36,7 +36,7 @@
       </div>
 
       <!-- HOME -->
-      <div class="w-full mt-10">
+      <div class="w-full sm:mt-10">
         <div class="h-40 w-40 m-auto bg-gray-900 rounded-xl neumorphic shadow-2xl relative overflow-hidden flex flex-col">
           <img class="absolute min-h-full min-w-full filter blur-sm z-10 select-none" src="https://media.istockphoto.com/photos/dark-night-and-stars-reflecting-in-maroon-lake-picture-id1299818587?b=1&k=20&m=1299818587&s=170667a&w=0&h=4qNkumvj73rB1ArCSVmbi9xw5yhpk_DICOeQqgtOTs8=" alt="">
           <nav class="z-20 flex justify-between w-full bg-gray-800 px-2 py-0.5 bg-opacity-50">
