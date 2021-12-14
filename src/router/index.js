@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/tiktok-shop',
+    name: 'Tiktok Shop',
+    component: () => import('../components/TiktokShop.vue')
+  },
+  {
     path: '/blend-image',
     name: 'Blend Image',
     component: () => import('../components/BlendImage.vue')
