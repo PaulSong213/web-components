@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/adaptive-design',
+    name: 'Adaptive Design.vue',
+    component: () => import('../components/AdaptiveDesign.vue')
+  },
+  {
     path: '/tiktok-shop',
     name: 'Tiktok Shop',
     component: () => import('../components/TiktokShop.vue')
