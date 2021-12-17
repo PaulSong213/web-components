@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/payment-form',
+    name: 'Payment Form.vue',
+    component: () => import('../components/PaymentForm.vue')
+  },
+  {
     path: '/adaptive-design',
     name: 'Adaptive Design.vue',
     component: () => import('../components/AdaptiveDesign.vue')
