@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
   {
@@ -6,6 +6,7 @@ const routes = [
     name: 'Introduction',
     component: () => import('../components/Introduction.vue')
   },
+  
   {
     path: '/payment-form',
     name: 'Payment Form.vue',
@@ -142,13 +143,15 @@ const routes = [
     name: 'ToggleDarkMode',
     component: () => import('../components/ToggleDarkMode.vue')
   },
-  
+  { 
+    path: "/:catchAll(.*)",
+    component: () => import('../components/PageNotFound.vue')   
+  }
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
-  
 })
 
 export default router
