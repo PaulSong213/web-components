@@ -10,7 +10,7 @@
     </div>
 
     <div @click="startApp()" class="z-20 w-96 mx-auto">
-      <div class="rounded-xl  overflow-hidden  cursor-pointer transform active:opacity-70">
+      <div class="rounded-xl select-none  overflow-hidden  " :class="[currentInputIndex < 0 ? 'cursor-pointer transform active:opacity-70' :'','' ]" >
         <div class="h-36 w-full bg-zinc-100 bg-opacity-80 flex justify-between p-4">
 
           <div class=" flex justify-between flex-col">
