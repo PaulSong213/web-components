@@ -1,5 +1,5 @@
 <template>
-  <section class="h-screen flex justify-center flex-col " :class="[`bg-${selectedVariantName}-700 bg-gradient-to-r from-${selectedVariantName}-900 via-${selectedVariantName}-900 to-${selectedVariantName}-800`, selectedVariantName === 'blue' || selectedVariantName === 'gray'  ? 'bg-slate-700' : ''  ]" >
+  <section class="h-screen flex justify-center flex-col px-4 " :class="[`bg-${selectedVariantName}-700 bg-gradient-to-r from-${selectedVariantName}-900 via-${selectedVariantName}-900 to-${selectedVariantName}-800`, selectedVariantName === 'blue' || selectedVariantName === 'gray'  ? 'bg-slate-700' : ''  ]" >
 
     <div class="h-60 w-full max-w-md mx-auto bg-gradient-to-r shadow-xl grid grid-cols-12 overflow-hidden rounded-md border border-slate-700" :class="[`bg-${selectedVariantName}-800 from-${selectedVariantName}-800  to-${selectedVariantName}-700` ]" >
       <nav class="col-span-12 h-12 text-white flex justify-between">
@@ -32,19 +32,13 @@ export default {
     return {
       currentSelectedIndex : 0,
       variants : [
-        {
-          name : 'green',
-          hueRotate : "-hue-rotate-90 brightness-110"
-        },
+        
         {
           name : 'purple',
           hueRotate : "hue-rotate-60"
         },
         
-        {
-          name : 'lime',
-          hueRotate : "-hue-rotate-90 brightness-125"
-        },
+        
         {
           name : 'gray',
           hueRotate : "grayscale brightness-125"
@@ -52,6 +46,14 @@ export default {
         {
           name : 'blue',
           hueRotate : ""
+        },
+        {
+          name : 'lime',
+          hueRotate : "-hue-rotate-90 brightness-125"
+        },
+        {
+          name : 'green',
+          hueRotate : "-hue-rotate-90 brightness-110"
         },
         
       ]

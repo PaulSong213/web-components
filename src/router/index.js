@@ -6,9 +6,7 @@ const routes = [
     name: 'Introduction',
     component: () => import('../components/Introduction.vue')
   },
-  { path: '/index.html',
-    component: () => import('../components/Introduction.vue')
-  }, 
+  
   {
     path: '/payment-form',
     name: 'Payment Form.vue',

@@ -1,5 +1,5 @@
 <template>
-  <section  class="h-screen bg-pink-300 bg-gradient-to-br from-fuchsia-300 via-pink-200 to-cyan-300 relative flex flex-col justify-center">
+  <section  class="h-screen bg-pink-300 bg-gradient-to-br from-fuchsia-300 via-pink-200 to-cyan-300 relative flex flex-col justify-center max-h-screen overflow-hidden p-4">
 
     <div class="z-10">
       <div class="w-24 h-24 bg-pink-400 rounded-full bg-gradient-to-tl from-inherit to-fuchsia-300  top-1/2 left-1/2 transform -translate-x-1/2 absolute scale-150"></div>
@@ -9,7 +9,7 @@
       <div class="w-24 h-24 bg-pink-400 rounded-xl bg-gradient-to-bl from-pink-200 to-rose-300 bottom-32 left-10 absolute transform scale-75 rotate-45"></div>
     </div>
 
-    <div @click="startApp()" class="z-20 w-96 mx-auto">
+    <div @click="startApp()" class="z-20 w-full sm:w-96 mx-auto">
       <div class="rounded-xl select-none  overflow-hidden  " :class="[currentInputIndex < 0 ? 'cursor-pointer transform active:opacity-70' :'','' ]" >
         <div class="h-36 w-full bg-zinc-100 bg-opacity-80 flex justify-between p-4">
 

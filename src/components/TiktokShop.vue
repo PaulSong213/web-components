@@ -2,15 +2,22 @@
   <section class="h-screen p-4 flex flex-col justify-center bg-white bg-gradient-to-br from-teal-400 via-fuchsia-400 to-rose-500">
   
   <div class="flex p-6 bg-white font-mono max-w-md mx-auto overflow-hidden">
-    <div class="flex-none w-48 mb-10 relative z-10 before:absolute before:top-1 before:left-1 before:w-full before:h-full before:bg-rose-500">
+    <div class="hidden md:block flex-none w-48 mb-10 relative z-10 before:absolute before:top-1 before:left-1 before:w-full before:h-full before:bg-rose-500">
       <img :src="images[currentImageIndex]" alt="" class="absolute z-10 inset-0 w-full h-full object-cover" />
       <div class="z-20 absolute flex justify-between top-1/2 -right-2 w-52 tranform -translate-y-1/2 text-2xl">
         <ion-icon @click="toNextImage(false)" class="text-rose-500 cursor-pointer hover:shadow-md opacity-70 hover:opacity-100 transition-all" name="chevron-back"></ion-icon>
         <ion-icon @click="toNextImage(true)" class="text-teal-500 cursor-pointer hover:shadow-md opacity-70 hover:opacity-100 transition-all" name="chevron-forward"></ion-icon>
       </div>
     </div>
-    <div class="flex-auto pl-6">
+    <div class="flex-auto  md:pl-6">
       <div class="relative flex flex-wrap items-baseline pb-6 before:bg-black before:absolute before:-top-6 before:bottom-0 before:-left-60 before:-right-6">
+        <div class="md:hidden flex-none w-48 h-48 mx-auto mb-10 relative z-10 before:absolute before:top-1 before:left-1 before:w-full before:h-full before:bg-rose-500">
+          <img :src="images[currentImageIndex]" alt="" class="absolute z-10 inset-0 w-full h-full object-cover" />
+          <div class="z-20 absolute flex justify-between top-1/2 -right-2 w-52 tranform -translate-y-1/2 text-2xl">
+            <ion-icon @click="toNextImage(false)" class="text-rose-500 cursor-pointer hover:shadow-md opacity-70 hover:opacity-100 transition-all" name="chevron-back"></ion-icon>
+            <ion-icon @click="toNextImage(true)" class="text-teal-500 cursor-pointer hover:shadow-md opacity-70 hover:opacity-100 transition-all" name="chevron-forward"></ion-icon>
+          </div>
+        </div>
         <h1 class="relative w-full flex-none mb-2 text-2xl font-semibold text-white">
           Retro Shoe
         </h1>
@@ -41,7 +48,7 @@
         </div>
       </div>
       <div class="flex space-x-2 mb-4 text-sm font-medium">
-        <div class="flex flex-col sm:flex-row lg:space-x-4 text-xs lg:text-sm">
+        <div class="flex md:flex-col lg:space-x-4 text-xs lg:text-sm">
           <button class="px-6 h-12 uppercase font-semibold tracking-wider border-2 border-black bg-teal-400 active:bg-teal-500 transition-all text-black" type="submit">
             Buy now
           </button>
