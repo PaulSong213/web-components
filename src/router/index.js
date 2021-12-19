@@ -2,11 +2,15 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
   {
-    path: '/',
+    path: '/introduction',
     name: 'Introduction',
     component: () => import('../components/Introduction.vue')
   },
-  
+  {
+    path: '/holographic',
+    name: 'Holographic',
+    component: () => import('../components/Holographic.vue')
+  },
   {
     path: '/payment-form',
     name: 'Payment Form.vue',
