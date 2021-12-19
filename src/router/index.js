@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/city-nature.vue',
+    name: 'City x Nature.vue',
+    component: () => import('../components/CityNature.vue')
+  },
+  {
     path: '/holographic',
     name: 'Holographic',
     component: () => import('../components/Holographic.vue')
