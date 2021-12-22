@@ -15,7 +15,7 @@
       <div class="flex flex-row-reverse justify-between px-8">
         
         <div class="p-2">
-        <div class="bg-green-500 cursor-pointer text-xl hover:bg-opacity-80 active:bg-opacity-100 transition-all  select-none text-black font-black border-4 rounded-full py-2 px-4 border-black">
+        <div @click="isClaimed = true" class="bg-green-500 cursor-pointer text-xl hover:bg-opacity-80 active:bg-opacity-100 transition-all  select-none text-black font-black border-4 rounded-full py-2 px-4 border-black">
           Better
         </div>
         </div>
