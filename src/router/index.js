@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/old-school',
+    name: 'Old School',
+    component: () => import('../components/OldSchool.vue')
+  },
+  {
     path: '/gmail-redesign',
     name: 'GMailRedesign',
     component: () => import('../components/GMailRedesign.vue')

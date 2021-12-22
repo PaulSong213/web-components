@@ -1,7 +1,7 @@
 <template>
   <section class="min-h-screen flex flex-col justify-center bg-amber-200 bg-gradient-to-b from-slate-100 via-slate-200 to-amber-100">
 
-    <div class="h-96 w-56 border-4 border-slate-900 rounded-2xl mx-auto shadow-lg px-3 py-4  bg-slate-200 space-y-5 flex flex-col relative">
+    <div class="h-96 w-56 border-4 border-slate-900 rounded-2xl mx-auto shadow-lg px-3 py-4  bg-slate-00 space-y-5 flex flex-col relative">
 
       <div class="flex justify-between text-xl">
         <img class="h-5" src="https://logos-world.net/wp-content/uploads/2020/11/Gmail-Logo.png" alt="Gmail Logo">
