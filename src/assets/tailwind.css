@@ -24,6 +24,8 @@ body::-webkit-scrollbar-thumb:hover {
   background: rgba(0,0,0,0.7);
 }
 
+
+
 @tailwind components;
 .category-shop-btn {
   @apply table mx-auto uppercase font-bold border p-2 hover:bg-white hover:text-purple-600 select-none active:bg-purple-900 active:text-white rounded-sm opacity-0 group-hover:opacity-100 transition-all tracking-wider;
