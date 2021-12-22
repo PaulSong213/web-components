@@ -1,5 +1,5 @@
 <template>
-  <section class="h-screen bg-pink-300 bg-gradient-to-br from-pink-300  to-amber-300 flex flex-col justify-center">
+  <section class="h-screen bg-pink-300 bg-gradient-to-br from-pink-300  to-amber-300 flex flex-col justify-center px-2">
 
     <div class="w-full max-w-md bg-white h-60 rounded-md mx-auto shadow-2xl p-4 overflow-hidden  relative">
 
