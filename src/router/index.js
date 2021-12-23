@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/icon-generator',
+    name: 'Icon Generator',
+    component: () => import('../components/IconGenerator.vue')
+  },
+  {
     path: '/image-hover',
     name: 'Image Hover',
     component: () => import('../components/ImageHover.vue')
