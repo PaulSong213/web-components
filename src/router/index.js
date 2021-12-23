@@ -12,6 +12,11 @@ const routes = [
     component: () => import('../components/IconGenerator.vue')
   },
   {
+    path: '/grow-shrink-menu',
+    name: 'Grow Shrink Menu',
+    component: () => import('../components/GrowShrinkMenu.vue')
+  },
+  {
     path: '/image-hover',
     name: 'Image Hover',
     component: () => import('../components/ImageHover.vue')
