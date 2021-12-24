@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/domain-checker',
+    name: 'Domain Checker',
+    component: () => import('../components/DomainChecker.vue')
+  },
+  {
     path: '/color-palette',
     name: 'Color Palette',
     component: () => import('../components/ColorPalette.vue')
