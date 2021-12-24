@@ -69,7 +69,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style >
 .vertical-writing
 {
   writing-mode: vertical-lr;

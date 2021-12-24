@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/color-palette',
+    name: 'Color Palette',
+    component: () => import('../components/ColorPalette.vue')
+  },
+  {
     path: '/icon-generator',
     name: 'Icon Generator',
     component: () => import('../components/IconGenerator.vue')
