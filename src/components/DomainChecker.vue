@@ -29,7 +29,7 @@
 export default {
   data(){
     return {
-      query : "tiktok.com"
+      query : ""
     }
   },
   computed : {
@@ -53,6 +53,3 @@ export default {
 }
 </script>
 
-<style>
-
-</style>

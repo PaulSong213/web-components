@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/blurred-login-page',
+    name: 'Blurred Login Page',
+    component: () => import('../components/BlurredLoginPage.vue')
+  },
+  {
     path: '/domain-checker',
     name: 'Domain Checker',
     component: () => import('../components/DomainChecker.vue')
