@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/most-common-words',
+    name: 'Most Common Words',
+    component: () => import('../components/MostCommonWords.vue')
+  },
+  {
     path: '/blurred-login-page',
     name: 'Blurred Login Page',
     component: () => import('../components/BlurredLoginPage.vue')
