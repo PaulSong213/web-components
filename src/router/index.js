@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/tourism',
+    name: 'Tourism',
+    component: () => import('../components/Tourism.vue')
+  },
+  {
     path: '/most-common-words',
     name: 'Most Common Words',
     component: () => import('../components/MostCommonWords.vue')
