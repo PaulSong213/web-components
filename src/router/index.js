@@ -7,9 +7,9 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
-    path: '/minimalistic-navbar',
-    name: 'Minimalistic Navbar',
-    component: () => import('../components/MinimalisticNavbar.vue')
+    path: '/blurred-calendar',
+    name: 'Blurred Calendar',
+    component: () => import('../components/BlurredCalendar.vue')
   },
   {
     path: '/tourism',
