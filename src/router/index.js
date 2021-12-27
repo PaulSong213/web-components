@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/minimalistic-navbar',
+    name: 'Minimalistic Navbar',
+    component: () => import('../components/MinimalisticNavbar.vue')
+  },
+  {
     path: '/tourism',
     name: 'Tourism',
     component: () => import('../components/Tourism.vue')
