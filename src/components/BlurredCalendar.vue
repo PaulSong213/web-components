@@ -20,7 +20,7 @@
           <div class="h-8 w-8 flex " v-for="(day,index) in days" :key="index" >
             <h6 class="m-auto font-semibold text-xs text-pink-500">{{day}}</h6>
           </div>
-          <div class="h-8 w-8 flex col-start-4" v-for="(day,index) in months[selectedIndex].dayCount"   :key="index"  :style="{ gridColumnStart : getColStart(index, months[selectedIndex].start) }"  >
+          <div class="h-8 w-8 flex" v-for="(day,index) in months[selectedIndex].dayCount"   :key="index"  :style="{ gridColumnStart : getColStart(index, months[selectedIndex].start) }"  >
             <h6 class="m-auto text-sm"  >{{day}}</h6>
           </div>
         </div>
