@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/address-ph',
+    name: 'Address Ph',
+    component: () => import('../components/AddressPh.vue')
+  },
+  {
     path: '/blurred-calendar',
     name: 'Blurred Calendar',
     component: () => import('../components/BlurredCalendar.vue')
