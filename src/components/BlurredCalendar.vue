@@ -1,5 +1,7 @@
 <template>
-  <section class='flex flex-col h-screen justify-center bg-[url("https://c.tenor.com/fBoFE2aeLPsAAAAd/pixel-neon-rain.gif")] space-y-3'>
+  <section class='flex flex-col h-screen justify-center bg-violet-900   '>
+    
+    <div class='bg-[url("https://c.tenor.com/fBoFE2aeLPsAAAAd/pixel-neon-rain.gif")] bg-no-repeat mx-auto w-full max-w-md bg-cover p-4 rounded-md space-y-3'>
     <div class="mx-auto w-full max-w-xs flex justify-between">
       <div class="flex space-x-1">
         <h1 class="font-bold text-xs px-4 py-2 text-white bg-fuchsia-800  w-max rounded-full select-none">2022</h1>
@@ -26,6 +28,8 @@
         </div>
       </div>
     </div>
+    </div>
+
   </section>
 </template>
 

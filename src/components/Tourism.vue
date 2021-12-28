@@ -2,7 +2,7 @@
   
   <section class="flex flex-col h-screen bg-emerald-800 justify-center">
 
-  <div class="mx-auto w-full max-w-md rounded-sm bg-[url(https://thumbs.gfycat.com/BrilliantGrizzledBellfrog-size_restricted.gif)] bg-no-repeat h-64 bg-cover shadow-xl shadow-emerald-900/50 flex justify-between relative">
+  <div class="mx-auto w-full max-w-md rounded-sm bg-[url(https://thumbs.gfycat.com/BrilliantGrizzledBellfrog-size_restricted.gif)] h-64 bg-cover bg-no-repeat shadow-xl shadow-emerald-900/50 flex justify-between relative">
 
     <div class="text-white font-bold text-xl flex h-full">
       <div class="px-2 text-sm flex flex-col justify-end space-y-2 mr-8 h-2/6 ">
@@ -34,7 +34,7 @@
       </div>
     </div>
 
-    <h1 class="uppercase absolute text-white w-full text-center bottom-5 font-black text-3xl">philippines</h1>
+    <h1 class="uppercase absolute text-white w-full text-center bottom-5 font-black text-2xl sm:text-3xl">philippines</h1>
 
   </div>
 

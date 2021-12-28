@@ -56,6 +56,8 @@ export default {
 
   .bg-forest {
     background-image: url('https://cdna.artstation.com/p/assets/images/images/033/738/670/original/ben-spensley-vv2.gif?1610450377');
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 
   .shrink-enter-active,
