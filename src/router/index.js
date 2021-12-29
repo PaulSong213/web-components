@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/step-by-step-form',
+    name: 'Step By Step Form',
+    component: () => import('../components/StepByStepForm.vue')
+  },
+  {
     path: '/address-ph',
     name: 'Address Ph',
     component: () => import('../components/AddressPh.vue')
