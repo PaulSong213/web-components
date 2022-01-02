@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/responsive-sidebar',
+    name: 'Responsive Sidebar',
+    component: () => import('../components/ResponsiveSidebar.vue')
+  },
+  {
     path: '/step-by-step-form',
     name: 'Step By Step Form',
     component: () => import('../components/StepByStepForm.vue')
