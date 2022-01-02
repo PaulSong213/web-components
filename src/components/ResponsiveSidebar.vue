@@ -30,7 +30,7 @@ export default {
   data(){
     return {
       isExpanded : true,
-      selectedNavIndex : 1,
+      selectedNavIndex : 0,
       navItems : [
         {
           name : "Store",
