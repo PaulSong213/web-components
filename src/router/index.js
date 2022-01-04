@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/restaurant-menu',
+    name: 'Restaurant Menu',
+    component: () => import('../components/RestaurantMenu.vue')
+  },
+  {
     path: '/responsive-sidebar',
     name: 'Responsive Sidebar',
     component: () => import('../components/ResponsiveSidebar.vue')
