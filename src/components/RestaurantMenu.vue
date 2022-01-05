@@ -43,7 +43,7 @@
 export default {
   data(){
     return {
-      selectedMenuIndex : 0,
+      selectedMenuIndex : -1,
       total : 0,
       menus : [
         {
