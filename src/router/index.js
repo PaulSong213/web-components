@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/os-portfolio',
+    name: 'OS Portfolio',
+    component: () => import('../components/OSPortfolio.vue')
+  },
+  {
     path: '/login-signup',
     name: 'Login Signup',
     component: () => import('../components/LoginSignup.vue')
