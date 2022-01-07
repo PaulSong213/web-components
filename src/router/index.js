@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/tictactoe',
+    name: 'Tictactoe',
+    component: () => import('../components/Tictactoe.vue')
+  },
+  {
     path: '/os-portfolio',
     name: 'OS Portfolio',
     component: () => import('../components/OSPortfolio.vue')
