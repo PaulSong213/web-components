@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/hexagon-navbar',
+    name: 'Hexagon Navbar',
+    component: () => import('../components/HexagonNavbar.vue')
+  },
+  {
     path: '/tictactoe',
     name: 'Tictactoe',
     component: () => import('../components/Tictactoe.vue')
