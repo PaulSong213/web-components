@@ -7,6 +7,12 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/online-course-maker',
+    name: 'Online Course Maker',
+    component: () => import('../components/OnlineCourseMaker.vue')
+  },
+  
+  {
     path: '/hexagon-navbar',
     name: 'Hexagon Navbar',
     component: () => import('../components/HexagonNavbar.vue')

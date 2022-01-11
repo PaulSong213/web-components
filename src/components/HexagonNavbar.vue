@@ -1,8 +1,6 @@
 <template>
   <section class='flex flex-col h-screen justify-center bg-purple-400 bg-gradient-to-bl from-purple-400 to-purple-500 px-2'>
-  
     <div class="w-full max-w-xs h-16 bg-white rounded-b-3xl shadow-md shadow-purple-400/50 mx-auto flex justify-between px-3 py-2 relative">
-
       <div v-for="(icon,index) in icons" :key="index" class="select-none" >
         <div v-if="icon.name !== 'add'" @click="isAdding = false" class="text-3xl my-auto text-purple-500 cursor-pointer bg-purple-200 rounded-full w-10 h-10 flex transition-all bg-opacity-0 hover:bg-opacity-80 hover:scale-110 transform active:scale-90 active:bg-opacity-100">
           <ion-icon class="m-auto" :name="icon.name"></ion-icon>
@@ -19,12 +17,9 @@
             <ion-icon class="m-auto" :name="icon.name"></ion-icon>
           </div>
         </div>
-
       </div>
       </transition>
-      
     </div>
-
   </section>
 </template>
 
@@ -44,7 +39,6 @@ export default {
         {
           name : "add",
         },
-        
         {
           name : "earth-outline"
         },
@@ -73,13 +67,8 @@ export default {
       ]
     }
   },
-  methods: {
-
-  },
 }
-
 </script>
-
 <style>
   .addPop-enter-active,
   .addPop-leave-active {
@@ -92,5 +81,4 @@ export default {
       width: 0;
       margin-bottom: -3rem;
   }
-
 </style>
