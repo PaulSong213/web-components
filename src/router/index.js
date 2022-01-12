@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/movie-selection',
+    name: 'Movie Selection',
+    component: () => import('../components/MovieSelection.vue')
+  },
+  {
     path: '/online-course-maker',
     name: 'Online Course Maker',
     component: () => import('../components/OnlineCourseMaker.vue')

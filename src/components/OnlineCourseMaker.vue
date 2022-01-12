@@ -61,7 +61,7 @@ export default {
       inputs : {
         bgColor : {
           label : "Background Color",
-          value : "#6b7280",
+          value : "#89918b",
           type : "color",
           index : 0
         },
