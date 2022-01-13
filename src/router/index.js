@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/tourism-swipe',
+    name: 'Tourism Swipe',
+    component: () => import('../components/TourismSwipe.vue')
+  },
+  {
     path: '/movie-selection',
     name: 'Movie Selection',
     component: () => import('../components/MovieSelection.vue')
