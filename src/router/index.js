@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/food',
+    name: 'Food',
+    component: () => import('../components/Food.vue')
+  },
+  {
     path: '/tourism-swipe',
     name: 'Tourism Swipe',
     component: () => import('../components/TourismSwipe.vue')
