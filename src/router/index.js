@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/subscribe-input',
+    name: 'Subscribe Input',
+    component: () => import('../components/SubscribeInput.vue')
+  },
+  {
     path: '/food',
     name: 'Food',
     component: () => import('../components/Food.vue')
