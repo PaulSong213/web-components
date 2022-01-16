@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/google-redesign',
+    name: 'Google Redesign',
+    component: () => import('../components/GoogleRedesign.vue')
+  },
+  {
     path: '/subscribe-input',
     name: 'Subscribe Input',
     component: () => import('../components/SubscribeInput.vue')
