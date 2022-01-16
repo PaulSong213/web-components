@@ -1,5 +1,5 @@
 <template>
-  <section class='flex flex-col h-screen justify-center bg-gray-400 px-2'>
+  <section class='flex flex-col h-screen justify-center bg-purple-500/70 px-2'>
     <div class='mx-auto w-full max-w-md rounded-sm bg-purple-800  h-64 shadow-xl flex flex-col relative bg-gaming overflow-hidden'>
       <div class="flex justify-end space-x-3 p-3">
         <div class="text-white text-xl flex flex-col justify-center cursor-pointer">
@@ -49,7 +49,7 @@
 export default {
   data(){
     return {
-      isSearchOptionOpen : true,
+      isSearchOptionOpen : false,
       selectedIcon : "search",
       options : [
         
@@ -92,7 +92,7 @@ export default {
   background-size:cover;
 }
 
-.animate-hue-rotate1 {
+.animate-hue-rotate {
   animation-name: huerotate;
   animation-duration: 3000ms;
   animation-iteration-count: infinite;
