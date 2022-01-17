@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/follower-celebration',
+    name: 'Follower Celebration',
+    component: () => import('../components/FollowerCelebration.vue')
+  },
+  {
     path: '/google-redesign',
     name: 'Google Redesign',
     component: () => import('../components/GoogleRedesign.vue')
