@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/personality-picker',
+    name: 'Personality Picker',
+    component: () => import('../components/PersonalityPicker.vue')
+  },
+  {
     path: '/follower-celebration',
     name: 'Follower Celebration',
     component: () => import('../components/FollowerCelebration.vue')

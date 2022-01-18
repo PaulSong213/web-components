@@ -2,7 +2,6 @@
   <section class='flex flex-col h-screen justify-center bg-rose-500 bg-gradient-to-br from-teal-200  to-rose-400 px-2'>
     <div class='mx-auto w-full max-w-md rounded-sm bg-black  h-64 shadow-xl flex justify-between relative'>
       <div class="text-7xl text-white font-black flex flex-col justify-center h-full w-full">
-        
         <div class="mx-auto w-full flex flex-col h-full relative py-5 px-10">
           <div class="text-teal-300 mt-3">
             <h1 class="text-xl">Thank you</h1>
@@ -28,9 +27,7 @@
     </div>
   </section>
 </template>
-
 <script>
-
 export default {
   data(){
     return {
