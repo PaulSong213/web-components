@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/share-button',
+    name: 'Share Button',
+    component: () => import('../components/ShareButton.vue')
+  },
+  {
     path: '/shoes-shop',
     name: 'Shoes Shop',
     component: () => import('../components/ShoesShop.vue')

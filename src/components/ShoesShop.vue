@@ -46,7 +46,7 @@
 export default {
   data(){
     return {
-      currentSelectedIndex : 1,
+      currentSelectedIndex : 0,
       shoes : [
         {
           image : "https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2hvZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=400&q=60",
