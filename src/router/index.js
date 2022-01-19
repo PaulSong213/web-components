@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/shoes-shop',
+    name: 'Shoes Shop',
+    component: () => import('../components/ShoesShop.vue')
+  },
+  {
     path: '/personality-picker',
     name: 'Personality Picker',
     component: () => import('../components/PersonalityPicker.vue')
