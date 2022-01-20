@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/flight-toggle',
+    name: 'Flight Toggle',
+    component: () => import('../components/FlightToggle.vue')
+  },
+  {
     path: '/mute',
     name: 'Mute',
     component: () => import('../components/Mute.vue')

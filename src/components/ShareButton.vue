@@ -73,7 +73,6 @@ export default {
 .fade-top-leave-to {
     opacity: 0;
     margin-top: 10px;   
-    
 }
 
 </style>
