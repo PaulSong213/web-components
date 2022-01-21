@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/circle-navigation',
+    name: 'Circle Navigation',
+    component: () => import('../components/CircleNavigation.vue')
+  },
+  {
     path: '/flight-toggle',
     name: 'Flight Toggle',
     component: () => import('../components/FlightToggle.vue')
