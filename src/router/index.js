@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/plan-chooser',
+    name: 'Plan Chooser',
+    component: () => import('../components/PlanChooser.vue')
+  },
+  {
     path: '/circle-navigation',
     name: 'Circle Navigation',
     component: () => import('../components/CircleNavigation.vue')
