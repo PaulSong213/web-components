@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/pop-input',
+    name: 'Pop Input',
+    component: () => import('../components/PopInput.vue')
+  },
+  {
     path: '/3d-Page',
     name: '3d Page',
     component: () => import('../components/3dPage.vue')
