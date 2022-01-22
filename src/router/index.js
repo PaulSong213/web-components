@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/3d-Page',
+    name: '3d Page',
+    component: () => import('../components/3dPage.vue')
+  },
+  {
     path: '/plan-chooser',
     name: 'Plan Chooser',
     component: () => import('../components/PlanChooser.vue')
