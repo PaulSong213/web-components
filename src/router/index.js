@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/calendar-note',
+    name: 'Calendar Note',
+    component: () => import('../components/CalendarNote.vue')
+  },
+  {
     path: '/pop-input',
     name: 'Pop Input',
     component: () => import('../components/PopInput.vue')
