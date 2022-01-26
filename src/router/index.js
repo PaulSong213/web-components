@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/gravity-switch',
+    name: 'Gravity Switch',
+    component: () => import('../components/GravitySwitch.vue')
+  },
+  {
     path: '/calendar-note',
     name: 'Calendar Note',
     component: () => import('../components/CalendarNote.vue')
