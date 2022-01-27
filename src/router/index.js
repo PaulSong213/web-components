@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/light-navbar',
+    name: 'Light Navbar',
+    component: () => import('../components/LightNavbar.vue')
+  },
+  {
     path: '/gravity-switch',
     name: 'Gravity Switch',
     component: () => import('../components/GravitySwitch.vue')
