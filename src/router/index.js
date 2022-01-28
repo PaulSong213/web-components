@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/toggle-light',
+    name: 'Toggle Light',
+    component: () => import('../components/ToggleLight.vue')
+  },
+  {
     path: '/light-navbar',
     name: 'Light Navbar',
     component: () => import('../components/LightNavbar.vue')
