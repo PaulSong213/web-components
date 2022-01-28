@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/flash-pagination',
+    name: 'Flash Pagination',
+    component: () => import('../components/FlashPagination.vue')
+  },
+  {
     path: '/toggle-light',
     name: 'Toggle Light',
     component: () => import('../components/ToggleLight.vue')
