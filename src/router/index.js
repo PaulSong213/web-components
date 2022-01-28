@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/toilet-toggle',
+    name: 'Toilet Toggle',
+    component: () => import('../components/ToiletToggle.vue')
+  },
+  {
     path: '/flash-pagination',
     name: 'Flash Pagination',
     component: () => import('../components/FlashPagination.vue')
