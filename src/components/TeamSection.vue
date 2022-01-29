@@ -9,7 +9,7 @@
           <div class="h-24 w-24 bg-gray-300 transform rotate-45 hover:rotate-0 hover:scale-125 transition-all duration-700 overflow-hidden group relative">
             <img class="transform -rotate-45 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 min-w-full min-h-full object-cover scale-[1.40] hover:rotate-0 transition-all duration-700 hover:scale-110 filter sepia hover:sepia-0 hover:brightness-110" :src="team.image" :alt="team.name">
           </div>
-          <h6 class="text-center mt-5 font-serif text-slate-\900">
+          <h6 class="text-center mt-5 font-serif text-slate-900">
             {{team.name}}
           </h6>
         </div>
