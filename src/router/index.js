@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/team-section',
+    name: 'Team Section',
+    component: () => import('../components/TeamSection.vue')
+  },
+  {
     path: '/toilet-toggle',
     name: 'Toilet Toggle',
     component: () => import('../components/ToiletToggle.vue')
