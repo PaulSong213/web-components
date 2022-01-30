@@ -1,6 +1,6 @@
 <template>
   <section class='flex flex-col h-screen justify-center bg-purple-400 bg-gradient-to-tr from-blue-500 to-purple-400 px-2'>
-    <div class="bg-black rounded-xl mx-auto flex space-x-8 text-5xl w-max pt-4 pb-2 px-8 relative">
+    <div class="bg-black rounded-xl mx-auto flex space-x-8 text-3xl sm:text-5xl w-max pt-4 pb-2 px-8 relative">
       <div v-for="(icon,index) in icons " :key="index" @click="selectedIndex = index" class="cursor-pointer z-10 transition-all duration-1000" :class="selectedIndex === index ? 'text-white' : 'text-gray-500' "  >
         <ion-icon :name="icon"></ion-icon>
       </div>
@@ -62,7 +62,6 @@ export default {
 <style>
 .trapezoid {
 	border-bottom: 65px solid rgba(255,255,255,0.2);
-  
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
 	height: 0;

@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/cursor-image',
+    name: 'Cursor Image',
+    component: () => import('../components/CursorImage.vue')
+  },
+  {
     path: '/cube-timer',
     name: 'Cube Timer',
     component: () => import('../components/CubeTimer.vue')

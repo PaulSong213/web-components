@@ -1,10 +1,10 @@
 <template>
   <section class='flex flex-col h-screen justify-center bg-blue-400 bg-gradient-to-br from-blue-400 via-sky-400 to-blue-500 px-2'>
-    <div class='mx-auto w-full max-w-md rounded-sm bg-amber-300  h-64 shadow-xl  relative px-10 py-5'>
+    <div class='mx-auto w-full max-w-md rounded-sm bg-amber-300  shadow-xl  relative px-10 py-5'>
       <h6 class="text-2xl font-serif mb-10 font-bold text-slate-800">
         The team
       </h6>
-      <div class="grid grid-cols-3 gap-14">
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-14">
         <div v-for="(team,index) in teams"  :key="index" class="">
           <div class="h-24 w-24 bg-gray-300 transform rotate-45 hover:rotate-0 hover:scale-125 transition-all duration-700 overflow-hidden group relative">
             <img class="transform -rotate-45 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 min-w-full min-h-full object-cover scale-[1.40] hover:rotate-0 transition-all duration-700 hover:scale-110 filter sepia hover:sepia-0 hover:brightness-110" :src="team.image" :alt="team.name">
