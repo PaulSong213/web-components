@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/cube-timer',
+    name: 'Cube Timer',
+    component: () => import('../components/CubeTimer.vue')
+  },
+  {
     path: '/theory-papers',
     name: 'Theory Papers',
     component: () => import('../components/TheoryPapers.vue')
