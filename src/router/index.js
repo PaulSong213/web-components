@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/game-info',
+    name: 'Game Info',
+    component: () => import('../components/GameInfo.vue')
+  },
+  {
     path: '/cursor-image',
     name: 'Cursor Image',
     component: () => import('../components/CursorImage.vue')
