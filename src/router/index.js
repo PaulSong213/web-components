@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/css-box-model',
+    name: 'CSS Box Model',
+    component: () => import('../components/CSSBoxModel.vue')
+  },
+  {
     path: '/css-position',
     name: 'CSS Position',
     component: () => import('../components/CSSPosition.vue')
