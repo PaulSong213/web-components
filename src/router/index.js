@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/css-position',
+    name: 'CSS Position',
+    component: () => import('../components/CSSPosition.vue')
+  },
+  {
     path: '/phone-character',
     name: 'Phone Character',
     component: () => import('../components/PhoneCharacter.vue')
