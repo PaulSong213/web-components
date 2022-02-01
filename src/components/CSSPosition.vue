@@ -20,7 +20,7 @@
 export default {
   data(){
     return {
-      selectedIndex : 4,
+      selectedIndex : 0,
       displays : [
         'inline','block','inline-block','flex','grid',
       ],
