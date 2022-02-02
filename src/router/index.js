@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/slide-menu',
+    name: 'Slide Menu',
+    component: () => import('../components/SlideMenu.vue')
+  },
+  {
     path: '/css-box-model',
     name: 'CSS Box Model',
     component: () => import('../components/CSSBoxModel.vue')
