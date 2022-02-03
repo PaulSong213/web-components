@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/collapsible-filters',
+    name: 'Collapsible Filters',
+    component: () => import('../components/CollapsibleFilters.vue')
+  },
+  {
     path: '/slide-menu',
     name: 'Slide Menu',
     component: () => import('../components/SlideMenu.vue')
