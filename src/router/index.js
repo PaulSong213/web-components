@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/user-experience-rate',
+    name: 'User Experience Rate',
+    component: () => import('../components/UserExperienceRate.vue')
+  },
+  {
     path: '/collapsible-filters',
     name: 'Collapsible Filters',
     component: () => import('../components/CollapsibleFilters.vue')
