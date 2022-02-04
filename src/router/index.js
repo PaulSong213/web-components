@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/minimalist-notes',
+    name: 'Minimalist Notes',
+    component: () => import('../components/MinimalistNotes.vue')
+  },
+  {
     path: '/user-experience-rate',
     name: 'User Experience Rate',
     component: () => import('../components/UserExperienceRate.vue')
