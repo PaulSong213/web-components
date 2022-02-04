@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/hero-page-Object',
+    name: 'Hero Page 3d Object',
+    component: () => import('../components/HeroPage3dObject.vue')
+  },
+  {
     path: '/minimalist-notes',
     name: 'Minimalist Notes',
     component: () => import('../components/MinimalistNotes.vue')
