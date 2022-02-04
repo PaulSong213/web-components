@@ -9,8 +9,7 @@
         <transition-group name="list" tag="div">
         <div v-for="(note,index) in notes" :key="note" class="flex space-x-2 -ml-2 text-slate-600 pt-1 mb-4">
           <ion-icon class="text-sm" name="ellipse"></ion-icon>
-          <input v-if="index === selectedIndex" :id="index" v-model="notes[index]" class="bg-transparent my-auto border-b-2 transition-all border-transparent shadow-none focus:border-slate-900 outline-none text-slate-800 text-sm" autofocus type="text"  />
-          <input v-else class="bg-transparent my-auto border-b-2 transition-all border-transparent shadow-none outline-none text-slate-800 text-sm cursor-default" :value="notes[index]" type="text" readonly />
+          <input class="bg-transparent my-auto border-b-2 transition-all border-transparent shadow-none outline-none text-slate-800 text-sm cursor-default" :value="notes[index]" type="text" readonly />
         </div>
         </transition-group>
       </div>
