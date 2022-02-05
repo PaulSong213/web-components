@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/text-icon-navbar',
+    name: 'Text Icon Navbar',
+    component: () => import('../components/TextIconNavbar.vue')
+  },
+  {
     path: '/freelance-office',
     name: 'Freelance Office',
     component: () => import('../components/FreelanceOffice.vue')
