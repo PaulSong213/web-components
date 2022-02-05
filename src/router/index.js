@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/freelance-office',
+    name: 'Freelance Office',
+    component: () => import('../components/FreelanceOffice.vue')
+  },
+  {
     path: '/photography',
     name: 'Photography',
     component: () => import('../components/Photography.vue')
