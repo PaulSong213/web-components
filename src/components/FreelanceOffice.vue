@@ -7,7 +7,7 @@
           <div class="h-full flex">
             <img class="my-auto" :class="[selectedForm === 1 ? 'w-32 mr-auto' : 'm-auto','' ]" src="https://ouch-cdn2.icons8.com/dcBku86uZhZFyJbWfxHwKCFEqvVGNbXIEFs-QnyBo8A/rs:fit:256:192/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvODUv/OTQ1OWM0N2MtMGUz/ZC00YzllLWFhY2Qt/MDA4ZTkyY2YxMTMy/LnN2Zw.png" alt="">
           </div>
-          <div class="flex-grow overflow-hidden transition-all duration-700 p-4 space-y-2 overflow-y-auto small-scroll" :class="[selectedForm !== 1 ? 'w-0 h-0 opacity-0' : 'w-full h-52 py-3' , '' ]" >
+          <div class="flex-grow overflow-hidden transition-all duration-700 space-y-2 overflow-y-auto small-scroll" :class="[selectedForm !== 1 ? 'w-0 h-0 opacity-0' : 'w-full h-52 py-3 p-4 ' , '' ]" >
             <div v-for="(input,index) in inputs.corporate" :key="index">
               <label class="text-white text-xs font-bold" :for="index">{{input.label}}</label>
               <input :id="index" class="bg-transparent outline-none border-white border rounded-md text-white text-sm py-1 px-2 w-full" :type="input.type">
@@ -24,7 +24,7 @@
           <div class="h-full flex">
             <img class="my-auto" :class="[selectedForm === 2 ? 'w-32 mr-auto' : 'm-auto','' ]" src="https://ouch-cdn2.icons8.com/KDXEMHU2SizLqCOd2Ohcu-lTtsaTTynQ_9p4h0lmVUE/rs:fit:256:144/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvNDgz/LzZjOWIwMDhlLWVl/MmMtNDhkYS05NmY5/LWRjNDI3YjAxMDYy/NC5zdmc.png" alt="">
           </div>
-          <div class="flex-grow overflow-hidden transition-all duration-700 p-4 space-y-2 overflow-y-auto small-scroll" :class="[selectedForm !== 2 ? 'w-0 h-0 opacity-0' : 'w-full h-52 py-3' , '' ]" >
+          <div class="flex-grow overflow-hidden transition-all duration-700  space-y-2 overflow-y-auto small-scroll" :class="[selectedForm !== 2 ? 'w-0 h-0 opacity-0' : 'w-full h-52 py-3 p-4' , '' ]" >
             <div v-for="(input,index) in inputs.freelance" :key="index">
               <label class="text-cyan-900 text-xs font-bold" :for="index">{{input.label}}</label>
               <input :id="index" class="bg-transparent outline-none border-cyan-900 border rounded-md text-cyan-900 text-sm py-1 px-2 w-full" :type="input.type">
