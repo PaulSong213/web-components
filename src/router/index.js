@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/photography',
+    name: 'Photography',
+    component: () => import('../components/Photography.vue')
+  },
+  {
     path: '/email-notification',
     name: 'Email Notification',
     component: () => import('../components/EmailNotification.vue')
