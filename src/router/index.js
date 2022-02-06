@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/js-async-visualizer',
+    name: 'Js Async Visualizer',
+    component: () => import('../components/JsAsyncVisualizer.vue')
+  },
+  {
     path: '/text-icon-navbar',
     name: 'Text Icon Navbar',
     component: () => import('../components/TextIconNavbar.vue')
