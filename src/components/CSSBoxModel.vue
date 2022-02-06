@@ -1,6 +1,6 @@
 <template>
   <section class='flex flex-col h-screen justify-center bg-slate-500 bg-gradient-to-b from-slate-500 via-slate-600 to-slate-500 px-2'>
-    <div class='mx-auto w-full max-w-md rounded-sm bg-amber-300  h-64 shadow-xl  relative grid grid-cols-12 gap-2 overflow-hidden'>
+    <div class='mx-auto w-full max-w-md rounded-sm bg-amber-300 h-80 sm:h-64 shadow-xl  relative grid sm:grid-cols-12 gap-2 overflow-hidden'>
       <div class="pt-4 space-y-4 col-span-5">
         <h6 class="font-semibold text-xl text-center leading-5">CSS Box Model <br/> Visualizer</h6>
         <div class="pl-3 pt-3 space-y-4">

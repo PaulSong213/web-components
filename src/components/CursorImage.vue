@@ -1,7 +1,7 @@
 <template>
   <section class='flex flex-col h-screen justify-center bg-amber-300 overflow-hidden bg-gradient-to-br from-amber-300 via-amber-200 to-amber-300 px-2'>
     <div class='mx-auto w-full max-w-md rounded-sm bg-yellow-900 h-64 shadow-xl relative divide-y-2 divide-yellow-300/30 p-5'>
-      <div v-for="(chocolate,index) in chocolates" :key="index" class=" text-xl py-2 text-yellow-200 select-none relative group hover:bg-red-900 transition-colors duration-500">
+      <div v-for="(chocolate,index) in chocolates" :key="index" class=" text-md sm:text-xl py-2 text-yellow-200 select-none relative group hover:bg-red-900 transition-colors duration-500">
         <h6 class="font-oswald">{{chocolate.name}}</h6>
         <div  :id="index" class="h-32 w-32 overflow-hidden absolute transform -top-28 rounded-tr-3xl rounded-bl-3xl opacity-0 transition-opacity duration-500 group-hover:opacity-100 test">
           <img class="min-w-full min-h-full aspect-square" :src="chocolate.image" alt="">

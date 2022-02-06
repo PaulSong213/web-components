@@ -22,7 +22,7 @@
             <button @click="isCameraClicked = true" class="bg-slate-900 w-14 rounded-t-sm left-1/2 -translate-x-1/2 h-2 absolute  transition-all duration-500  transform z-30" :class="[isCameraClicked ? 'scale-y-0 -top-2' : 'scale-y-100 -top-2' , '' ]" > </button>
         </div>
         </div>
-        <h1 class="text-black/60 font-black uppercase absolute -translate-y-full -translate-x-full left-24 -bottom-10 w-full text-xs">Some of my shots</h1>
+        <h1 class="text-black/60 font-black uppercase absolute -translate-y-full -translate-x-full left-full sm:left-24 -bottom-10 w-full text-xs">Some of my shots</h1>
         <div v-for="(shot,index) in shots" :key="index" class="absolute w-20 h-24  bg-white p-2 shadow-md z-20  translate-y-full transition-all duration-1000" :class="[shottedIndexes.includes(index) ? 'top-24 scale-y-100' : '-top-1/2 scale-y-50','', isAvailableToPlace.includes(index) ? shot.place : 'left-1/2 -translate-x-1/2','' ]">
           <div class="relative w-full h-full">
             <img class="absolute object-cover min-w-full min-h-full" :src="shot.image">

@@ -3,7 +3,7 @@
     <div class='mx-auto w-full max-w-md rounded-sm bg-sky-50  h-64 shadow-xl shadow-sky-600/50 flex justify-between relative overflow-hidden'>
       <div class="absolute z-20 h-40 left-6 top-3">
         <img class="h-32 mx-auto" src="https://ouch-cdn2.icons8.com/XbOTI-xltWTtWwH_dDQoE3HAx4XwIBqjqFir-mx57kM/rs:fit:256:266/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9wbmcvNjM2/L2FhMGM3MGIwLWUw/ZmMtNGFmNy05MmJi/LWJiMzc1OGZkZGFk/MS5wbmc.png" alt="">
-        <h6 class="text-3xl font-black uppercase my-2 tracking-wider text-white">Hit or Miss</h6>
+        <h6 class="text-xl sm:text-3xl font-black uppercase my-2 tracking-wider text-white">Hit or Miss</h6>
         <button @click="download" class="bg-slate-900 hover:bg-slate-800 active:bg-slate-900 transition-all flex space-x-2 text-white  rounded-md text-xs relative" :class="[isDownloading ? 'w-36 h-1' : 'w-24 h-auto p-2' , ''  ]" >
           <div class="transition-all" :class="[isDownloading ? 'absolute  scale-150 transform -translate-x-full -top-0.5' : 'block -mb-0.5' , '', isLoading ? 'left-full duration-[2500ms]' : 'left-2 duration-500', ''  ]" >
             <ion-icon v-if="!isDownLoaded"  class="text-md pointer-events-none" name="logo-google-playstore"></ion-icon>
