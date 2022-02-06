@@ -58,7 +58,7 @@ export default {
         },
         
       ],
-      selectedIndex : 2,
+      selectedIndex : -1,
       displays : [
         'Callback','Asynchronous','Promises','Async/Await'
       ],
