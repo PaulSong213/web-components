@@ -53,7 +53,7 @@ export default {
           selectedBlockIndexes : [ false , true , false , false , true , false , true , false , false ]
         },
         {
-          name : ':nth-of-type(3)',
+          name : ':nth-last-of-type(3)',
           selectedBlockIndexes : [ true , false , false , true , false , false , false , false , false ]
         },
         {
