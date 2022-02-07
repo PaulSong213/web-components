@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/css-center-absolute-div',
+    name: 'CSS Center Absolute Div',
+    component: () => import('../components/CSSCenterAbsoluteDiv.vue')
+  },
+  {
     path: '/js-async-visualizer',
     name: 'Js Async Visualizer',
     component: () => import('../components/JsAsyncVisualizer.vue')
