@@ -5,6 +5,10 @@ const routes = [
     path: '/introduction',
     name: 'Introduction',
     component: () => import('../components/Introduction.vue')
+  },{
+    path: '/css-transform-visualizer',
+    name: 'CSS 2D Transform Visualizer',
+    component: () => import('../components/CSS2DTransformVisualizer.vue')
   },
   {
     path: '/css-center-absolute-div',
