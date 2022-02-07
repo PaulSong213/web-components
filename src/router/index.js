@@ -5,7 +5,13 @@ const routes = [
     path: '/introduction',
     name: 'Introduction',
     component: () => import('../components/Introduction.vue')
-  },{
+  },
+  {
+    path: '/css-pseudo-element',
+    name: 'CSS Pseudo Element',
+    component: () => import('../components/CSSPseudoElement.vue')
+  },
+  {
     path: '/css-transform-visualizer',
     name: 'CSS 2D Transform Visualizer',
     component: () => import('../components/CSS2DTransformVisualizer.vue')
