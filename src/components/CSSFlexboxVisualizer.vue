@@ -2,7 +2,7 @@
   <section class='flex flex-col h-screen justify-center bg-slate-500 bg-gradient-to-b from-slate-500 via-slate-600 to-slate-500 px-2'>
     <div class='mx-auto w-full max-w-md rounded-sm bg-amber-300  h-64 shadow-xl  relative grid grid-cols-12 overflow-hidden gap-5'>
       <div class="pt-4 space-y-5 col-span-5 px-4">
-        <h6 class="font-semibold text-xl text-center leading-5">CSS Display <br/> Visualizer</h6>
+        <h6 class="font-semibold text-md text-center leading-6">CSS Flex Container <br/> Visualizer</h6>
         <section class="flex flex-col overflow-auto space-y-3 small-scroll h-40 pl-2">
           <div v-for="(property,index) in properties" :key="index" class="space-y-2 opacity-70 hover:opacity-100 transition-all">
             <h6 class="text-sm font-bold text-slate-800">{{property.name}}</h6>
