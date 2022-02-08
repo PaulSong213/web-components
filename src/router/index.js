@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/css-flexbox-visualizer',
+    name: 'CSS Flexbox Visualizer',
+    component: () => import('../components/CSSFlexboxVisualizer.vue')
+  },
+  {
     path: '/css-overflow-visualizer',
     name: 'CSS Overflow Visualizer',
     component: () => import('../components/CSSOverflowVisualizer.vue')

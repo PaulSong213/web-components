@@ -24,6 +24,13 @@ body::-webkit-scrollbar-thumb:hover {
   background: rgba(0,0,0,0.7);
 }
 
+.small-white-scroll::-webkit-scrollbar {
+  width: 4px;
+  height: 4x;
+  border-radius: 100%;
+}
+
+
 
 
 @tailwind components;
@@ -50,6 +57,22 @@ body::-webkit-scrollbar-thumb:hover {
 .fade-leave-to {
     opacity: 0;
     position: absolute;
+}
+
+/* Track */
+.small-white-scroll::-webkit-scrollbar-track {
+  background: rgba(252, 252, 252, 0.3);
+
+}
+
+/* Handle */
+.small-white-scroll::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+}
+
+/* Handle on hover */
+.small-white-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgb(172, 172, 172);
 }
 
 

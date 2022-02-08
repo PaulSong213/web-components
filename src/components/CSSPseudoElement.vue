@@ -108,7 +108,7 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
 .small-scroll::-webkit-scrollbar {
   width: 4px;
   height: 4x;
@@ -129,6 +129,5 @@ export default {
 /* Handle on hover */
 .small-scroll::-webkit-scrollbar-thumb:hover {
   background: rgb(172, 172, 172);
-
 }
 </style>
