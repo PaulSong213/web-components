@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/css-overflow-visualizer',
+    name: 'CSS Overflow Visualizer',
+    component: () => import('../components/CSSOverflowVisualizer.vue')
+  },
+  {
     path: '/css-pseudo-element',
     name: 'CSS Pseudo Element',
     component: () => import('../components/CSSPseudoElement.vue')
