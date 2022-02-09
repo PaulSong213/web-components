@@ -34,4 +34,4 @@ This template should help get you started developing with Vue 3 in Vite. The tem
   ```sh
   npm run dev
   ```
-- Lastly, open the sample on [localhost:3000](http://localhost:3000) or whichever port available given in the command line.
+- Lastly, open the project on [localhost:3000](http://localhost:3000) or whichever port available given in the command line.
