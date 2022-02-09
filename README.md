@@ -13,8 +13,25 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 - [Node.js](https://nodejs.org/en/download/)
 
 ## Installation
-- This is an example of how to list things you need to use the software and how to install them.
-  * npm
+- Navigate to your desired installation directory for example on 'Desktop'
   ```sh
-  npm install npm@latest -g
+  cd Desktop
   ```
+- Clone the project
+  ```sh
+  git clone https://github.com/PaulSong213/web-components.git
+  ```
+  
+- Navigate to the web components project
+  ```sh
+  cd web-components
+  ```
+- Install required dependecies
+  ```sh
+  npm i
+  ```
+- Run the project on localhost
+  ```sh
+  npm run dev
+  ```
+- Lastly, open the sample on [localhost:3000](http://localhost:3000) or whichever port available given in the command line.
