@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/css-adding-visualizer',
+    name: 'CSS Adding Visualizer',
+    component: () => import('../components/CSSAddingVisualizer.vue')
+  },
+  {
     path: '/css-flexbox-visualizer',
     name: 'CSS Flexbox Visualizer',
     component: () => import('../components/CSSFlexboxVisualizer.vue')
