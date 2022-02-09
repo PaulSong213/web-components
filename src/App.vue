@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div id="nav" v-if="isDevelopment" class=" absolute z-50 bg-green-500 bottom-10 right-10 rounded-full flex justify-between p-1 space-x-1 text-white text-5xl bg-opacity-50 shadow-xl border border-white/30">
+    <div id="nav" v-if="showBottomNavigation" class=" absolute z-50 bg-green-500 bottom-10 right-10 rounded-full flex justify-between p-1 space-x-1 text-white text-5xl bg-opacity-50 shadow-xl border border-white/30">
       <div v-if="currentIndex > 0" @click="moveToNextPath(false)" class="h-12  w-full rounded-l-full hover:bg-green-500 cursor-pointer active:bg-green-400 transition-all">
         <ion-icon class="pointer-events-none" name="caret-back-outline"></ion-icon>
       </div>
@@ -16,7 +16,7 @@
       </div>
     </div>
 
-    <a id="nav" v-if="isDevelopment" href="https://github.com/PaulSong213/web-components.git" class=" absolute z-50 bg-green-500 bottom-10 left-10 rounded-full flex justify-between py-2 px-4 space-x-1 text-white text-xs bg-opacity-50 shadow-sm border border-white/30 font-bold select-none">
+    <a id="nav" v-if="showBottomNavigation" href="https://github.com/PaulSong213/web-components.git" class=" absolute z-50 bg-green-500 bottom-10 left-10 rounded-full flex justify-between py-2 px-4 space-x-1 text-white text-xs bg-opacity-50 shadow-sm border border-white/30 font-bold select-none">
       Source Code
     </a>
 
@@ -30,16 +30,16 @@
 export default {
     data() {
         return {
-          isDevelopment : false,
+          showBottomNavigation : true,
           pageTransition : 'page-slide-forward'    
         }
     },
     mounted(){
-      this.checkIfDevelopment()
+      this.willShowBottomNavigation();
     },
     methods : {
-      checkIfDevelopment(){
-        this.isDevelopment = window.location.hostname === 'localhost';
+      willShowBottomNavigation(){
+        if(import.meta.env.VITE_IS_MAKING_VIDEO)this.showBottomNavigation = false;
       },
       moveToNextPath(isNext = true){
         if(isNext){
