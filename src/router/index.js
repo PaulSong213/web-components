@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/js-array-method-visualizer',
+    name: 'JS Array Method Visualizer',
+    component: () => import('../components/JSArrayMethodVisualizer.vue')
+  },
+  {
     path: '/css-adding-visualizer',
     name: 'CSS Adding Visualizer',
     component: () => import('../components/CSSAddingVisualizer.vue')
