@@ -6,8 +6,8 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 - [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
 
-#Install on your Local device
+# Install on your Local device
 
-##Requirements
--[Git](https://git-scm.com/downloads)
--[Node.js](https://nodejs.org/en/download/)
+## Requirements
+- [Git](https://git-scm.com/downloads)
+- [Node.js](https://nodejs.org/en/download/)
