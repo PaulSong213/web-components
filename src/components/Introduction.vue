@@ -6,6 +6,7 @@
       <h5 class="font-normal text-gray-300 text-md my-5">Created by 
         <a class="text-green-800 underline" href="https://www.songalia.me/">Paul</a>
       </h5>
+      <a class="border-b-4 border-green-300" href="/">View latest Project</a>
     </div>
 
   </section>

@@ -1,8 +1,8 @@
 <template>
   <section>
-    <div id="nav" v-if="!isDevelopment" class=" absolute z-50 bg-green-500 bottom-10 right-10 rounded-full flex justify-between p-1 space-x-1 text-white text-5xl bg-opacity-50 shadow-xl">
+    <div id="nav" v-if="isDevelopment" class=" absolute z-50 bg-green-500 bottom-10 right-10 rounded-full flex justify-between p-1 space-x-1 text-white text-5xl bg-opacity-50 shadow-xl border border-white/30">
       <div v-if="currentIndex > 0" @click="moveToNextPath(false)" class="h-12  w-full rounded-l-full hover:bg-green-500 cursor-pointer active:bg-green-400 transition-all">
-        <ion-icon name="caret-back-outline"></ion-icon>
+        <ion-icon class="pointer-events-none" name="caret-back-outline"></ion-icon>
       </div>
 
       <transition name="fade-ups">
@@ -12,9 +12,13 @@
         </div>
       </transition>
       <div @click="moveToNextPath(true)" class="h-12  w-full rounded-r-full hover:bg-green-500 cursor-pointer active:bg-green-400 transition-all">
-        <ion-icon name="caret-forward-outline"></ion-icon>
+        <ion-icon class="pointer-events-none" name="caret-forward-outline"></ion-icon>
       </div>
     </div>
+
+    <a id="nav" v-if="isDevelopment" href="https://github.com/PaulSong213/web-components.git" class=" absolute z-50 bg-green-500 bottom-10 left-10 rounded-full flex justify-between py-2 px-4 space-x-1 text-white text-xs bg-opacity-50 shadow-sm border border-white/30 font-bold select-none">
+      Source Code
+    </a>
 
     <router-view v-slot="{ Component }">
         <component :is="Component" />
