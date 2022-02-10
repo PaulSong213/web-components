@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/js-timing-events-visualizer',
+    name: 'JS Timing Events Visualizer',
+    component: () => import('../components/JSTimingEventsVisualizer.vue')
+  },
+  {
     path: '/js-array-method-visualizer',
     name: 'JS Array Method Visualizer',
     component: () => import('../components/JSArrayMethodVisualizer.vue')
