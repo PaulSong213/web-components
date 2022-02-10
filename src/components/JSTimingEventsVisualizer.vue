@@ -2,7 +2,7 @@
   <section class='flex flex-col h-screen justify-center bg-slate-500 bg-gradient-to-b from-slate-400 via-slate-500 to-slate-400 px-2'>
     <div class='mx-auto w-full max-w-md rounded-sm bg-green-300  h-64 shadow-xl  relative grid grid-cols-12 overflow-hidden'>
       <div class="pt-4 space-y-4 col-span-8">
-        <h6 class="font-semibold text-xl text-center leading-5">Javascript Async <br/> Visualizer</h6>
+        <h6 class="font-semibold text-xl text-center leading-5">Javascript Timing Events <br/> Visualizer</h6>
         <div class="px-4">
           <button  v-for="(display,index) in displays " :key="index" @click="selectedIndex = index" class="font-medium  p-1 rounded-full hover:shadow-sm w-full transition-all " :class="[index === selectedIndex ? 'bg-green-400/60 cursor-default' : 'hover:bg-green-400 active:bg-green-400/60', '' ]">
             <h6 class="text-sky-800 text-md" v-html="display.name"></h6>
