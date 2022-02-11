@@ -1,11 +1,15 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
-  
   {
     path: '/introduction',
     name: 'Introduction',
     component: () => import('../components/Introduction.vue')
+  },
+  {
+    path: '/oop-encapsulation-visualizer',
+    name: 'OOP Encapsulation Visualizer',
+    component: () => import('../components/OOPEncapsulationVisualizer.vue')
   },
   {
     path: '/css-absolute-relative-visualizer',
