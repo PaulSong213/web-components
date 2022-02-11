@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/oop-polymorphism-visualizer',
+    name: 'OOP Polymorphism Visualizer',
+    component: () => import('../components/OOPPolymorphismVisualizer.vue')
+  },
+  {
     path: '/oop-encapsulation-visualizer',
     name: 'OOP Encapsulation Visualizer',
     component: () => import('../components/OOPEncapsulationVisualizer.vue')
