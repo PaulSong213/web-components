@@ -1,10 +1,16 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
+  
   {
     path: '/introduction',
     name: 'Introduction',
     component: () => import('../components/Introduction.vue')
+  },
+  {
+    path: '/css-absolute-relative-visualizer',
+    name: 'CSS Absolute Relative Visualizer',
+    component: () => import('../components/CSSAbsoluteRelativeVisualizer.vue')
   },
   {
     path: '/js-timing-events-visualizer',
