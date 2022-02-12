@@ -9,5 +9,8 @@ export default defineConfig({
       '@' : path.resolve(__dirname, './src')
     },
   },
+  build: {
+    chunkSizeWarningLimit: 1600,
+  },
   plugins: [vue()]
 })
