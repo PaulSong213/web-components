@@ -2,7 +2,7 @@ export default  [
   {
     path: '/css-max-min',
     name: 'CSS Max Min Visualizer',
-    component: () => import('../components/CSSMaxMinVisualizer.vue')
+    component: () => import('../components/OOPPolymorphismVisualizer.vue')
   },
   {
     path: '/oop-polymorphism-visualizer',
