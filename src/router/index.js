@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/css-max-min-visualizer',
+    name: 'CSS Max Min Visualizer',
+    component: () => import('../components/CSSMaxMinVisualizer.vue')
+  },
+  {
     path: '/oop-polymorphism-visualizer',
     name: 'OOP Polymorphism Visualizer',
     component: () => import('../components/OOPPolymorphismVisualizer.vue')

@@ -87,7 +87,5 @@ export default {
 </script>
 
 <style>
-.test {
-  
-}
+
 </style>

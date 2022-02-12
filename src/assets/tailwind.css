@@ -59,19 +59,25 @@ body::-webkit-scrollbar-thumb:hover {
     position: absolute;
 }
 
+.small-scroll::-webkit-scrollbar {
+  width: 4px;
+  height: 4x;
+  border-radius: 100%;
+}
+
 /* Track */
-.small-white-scroll::-webkit-scrollbar-track {
+.small-scroll::-webkit-scrollbar-track {
   background: rgba(252, 252, 252, 0.3);
 
 }
 
 /* Handle */
-.small-white-scroll::-webkit-scrollbar-thumb {
+.small-scroll::-webkit-scrollbar-thumb {
   background: rgb(255, 255, 255);
 }
 
 /* Handle on hover */
-.small-white-scroll::-webkit-scrollbar-thumb:hover {
+.small-scroll::-webkit-scrollbar-thumb:hover {
   background: rgb(172, 172, 172);
 }
 

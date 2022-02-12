@@ -4,7 +4,7 @@
       <div class="pt-4 pl-4 space-y-4">
         <h6 class="font-semibold text-xl text-center leading-5">CSS Display <br/> Visualizer</h6>
         <div class="px-4">
-          <button  v-for="(display,index) in displays " :key="index" @click="selectedIndex = index" class="font-medium  p-1 rounded-full shadow-sm w-full transition-all " :class="[index === selectedIndex ? 'bg-amber-400/60 cursor-default' : 'hover:bg-amber-400 active:bg-amber-400/60', '' ]">
+          <button  v-for="(display,index) in displays " :key="index" @click="selectedIndex = index" class="font-medium  p-1 rounded-full hover:shadow-sm w-full transition-all " :class="[index === selectedIndex ? 'bg-amber-400/60 cursor-default' : 'hover:bg-amber-400 active:bg-amber-400/60', '' ]">
             <h6 >{{display}}</h6>
           </button>
         </div>
