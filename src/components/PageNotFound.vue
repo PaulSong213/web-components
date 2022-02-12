@@ -11,7 +11,7 @@ export default {
   methods : {
     redirectPage(){
         var latestPath = Object.values(this.$router.options.routes)[1]['path'];
-        return this.$router.push({ path: '/introduction'});
+        return this.$router.push({ path: latestPath});
     }
   }
 }
