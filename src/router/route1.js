@@ -1,6 +1,6 @@
 export default  [
   {
-    path: '/css-max-min-visualizer',
+    path: '/css-max-min',
     name: 'CSS Max Min Visualizer',
     component: () => import('../components/CSSMaxMinVisualizer.vue')
   },

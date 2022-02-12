@@ -7,7 +7,6 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   ...route1,
-  
   {
     path: '/cube-timer',
     name: 'Cube Timer',
@@ -369,20 +368,20 @@ const routes = [
     name: 'ShopCategory',
     component: () => import('../components/ShopCategory.vue')
   },
-  {
-    path: '/tiktok-navigation',
-    name: 'TiktokNavigation',
-    component: () => import('../components/TiktokNavigation.vue')
-  },
-  {
-    path: '/toggle-dark-mode',
-    name: 'ToggleDarkMode',
-    component: () => import('../components/ToggleDarkMode.vue')
-  },
-  { 
-    path: "/:catchAll(.*)",
-    component: () => import('../components/PageNotFound.vue')   
-  }
+  // {
+  //   path: '/tiktok-navigation',
+  //   name: 'TiktokNavigation',
+  //   component: () => import('../components/TiktokNavigation.vue')
+  // },
+  // {
+  //   path: '/toggle-dark-mode',
+  //   name: 'ToggleDarkMode',
+  //   component: () => import('../components/ToggleDarkMode.vue')
+  // },
+  // { 
+  //   path: "/:catchAll(.*)",
+  //   component: () => import('../components/PageNotFound.vue')   
+  // }
 ]
 
 const router = createRouter({
