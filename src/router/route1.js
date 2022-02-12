@@ -104,4 +104,34 @@ export default  [
     name: 'Collapsible Filters',
     component: () => import('../components/CollapsibleFilters.vue')
   },
+  {
+    path: '/slide-menu',
+    name: 'Slide Menu',
+    component: () => import('../components/SlideMenu.vue')
+  },
+  {
+    path: '/css-box-model',
+    name: 'CSS Box Model',
+    component: () => import('../components/CSSBoxModel.vue')
+  },
+  {
+    path: '/css-position',
+    name: 'CSS Position',
+    component: () => import('../components/CSSPosition.vue')
+  },
+  {
+    path: '/phone-character',
+    name: 'Phone Character',
+    component: () => import('../components/PhoneCharacter.vue')
+  },
+  {
+    path: '/game-info',
+    name: 'Game Info',
+    component: () => import('../components/GameInfo.vue')
+  },
+  {
+    path: '/cursor-image',
+    name: 'Cursor Image',
+    component: () => import('../components/CursorImage.vue')
+  },
 ]

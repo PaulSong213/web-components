@@ -7,36 +7,7 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   ...route1,
-  {
-    path: '/slide-menu',
-    name: 'Slide Menu',
-    component: () => import('../components/SlideMenu.vue')
-  },
-  {
-    path: '/css-box-model',
-    name: 'CSS Box Model',
-    component: () => import('../components/CSSBoxModel.vue')
-  },
-  {
-    path: '/css-position',
-    name: 'CSS Position',
-    component: () => import('../components/CSSPosition.vue')
-  },
-  {
-    path: '/phone-character',
-    name: 'Phone Character',
-    component: () => import('../components/PhoneCharacter.vue')
-  },
-  {
-    path: '/game-info',
-    name: 'Game Info',
-    component: () => import('../components/GameInfo.vue')
-  },
-  {
-    path: '/cursor-image',
-    name: 'Cursor Image',
-    component: () => import('../components/CursorImage.vue')
-  },
+  
   {
     path: '/cube-timer',
     name: 'Cube Timer',
@@ -398,7 +369,6 @@ const routes = [
     name: 'ShopCategory',
     component: () => import('../components/ShopCategory.vue')
   },
-
   {
     path: '/tiktok-navigation',
     name: 'TiktokNavigation',
