@@ -76,37 +76,31 @@ export default {
   },
   computed : {
     minHeight(){
-      this.test++;
       let index = ['minHeight'];
       if(this.displays[index].isAdded)return this.displays[index].class;
       return this.displays[index].callbackClass;
     },
     height(){
-      this.test++;
       let index = ['height'];
       if(this.displays[index].isAdded)return this.displays[index].class;
       return this.displays[index].callbackClass;
     },
     maxHeight(){
-      this.test++;
       let index = ['maxHeight'];
       if(this.displays[index].isAdded)return this.displays[index].class;
       return this.displays[index].callbackClass;
     },
     maxWidth(){
-      this.test++;
       let index = ['maxWidth'];
       if(this.displays[index].isAdded)return this.displays[index].class;
       return this.displays[index].callbackClass;
     },
     width(){
-      this.test++;
       let index = ['width'];
       if(this.displays[index].isAdded)return this.displays[index].class;
       return this.displays[index].callbackClass;
     },
     minWidth(){
-      this.test++;
       let index = ['minWidth'];
       if(this.displays[index].isAdded)return this.displays[index].class;
       return this.displays[index].callbackClass;
@@ -114,7 +108,25 @@ export default {
     
   },
   watch : {
-    test(test) {
+    height(){
+      this.test++;
+    },
+    minHeight(){
+      this.test++;
+    },
+    maxHeight(){
+      this.test++;
+    },
+    width(){
+      this.test++;
+    },
+    minWidth(){
+      this.test++;
+    },
+    maxWidth(){
+      this.test++;
+    },
+    test() {
       if(!this.$refs.boxModel)return;
       setTimeout(() => {
         this.boxHeight = this.$refs.boxModel.offsetHeight + 'px';
