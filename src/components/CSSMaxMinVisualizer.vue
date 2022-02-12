@@ -1,17 +1,17 @@
 <template>
   <section class='flex flex-col h-screen justify-center bg-slate-500 bg-gradient-to-b from-slate-500 via-slate-600 to-slate-500 px-2'>
-    <div class='mx-auto w-full max-w-md rounded-sm bg-amber-300  h-64 shadow-xl  relative grid grid-cols-2 overflow-hidden gap-5'>
+    <div class='mx-auto w-full max-w-md rounded-sm bg-amber-300  h-64 shadow-xl  relative grid grid-cols-2 overflow-hidden sm:gap-5'>
       <div class="pt-4 pl-4 space-y-4">
-        <h6 class="font-semibold text-xl text-center leading-5">CSS min & max <br/> Visualizer</h6>
+        <h6 class="font-semibold text-lg sm:text-xl text-center leading-5">CSS min & max <br/> Visualizer</h6>
         <div class="pr-4 h-40 overflow-auto small-scroll">
           <button  v-for="(display,index) in displays " :key="index" @click="selectedIndex = index" class="font-medium  p-1 rounded-full hover:shadow-sm w-full transition-all flex space-x-2 justify-end" >
-            <label :for="index">{{display.name}}</label>
+            <label class="text-xs sm:text-sm" :for="index">{{display.name}}</label>
             <input v-model="display.isAdded" :id="index" class="accent-red-900 mt-1" type="checkbox">
           </button>
         </div>
       </div>
-      <div class="h-full flex flex-col justify-center pl-2 pr-16 my-auto relative">
-        <div class="bg-red-900 transition-all duration-500 absolute overflow-hidden" :class="[minHeight,maxHeight,height,minWidth,maxWidth,width]" ref="boxModel">
+      <div class="h-full flex flex-col justify-center sm:pl-2 sm:pr-16 my-auto relative">
+        <div class="scale-75 bg-red-900 transition-all duration-500 absolute overflow-hidden" :class="[minHeight,maxHeight,height,minWidth,maxWidth,width]" ref="boxModel">
           <div class="flex text-white flex-col space-y-1 absolute left-1 top-1/2 -translate-y-1/2">
             <ion-icon name="arrow-up-outline"></ion-icon>
             <h6 class="text-sm font-bold">{{boxHeight}}</h6>

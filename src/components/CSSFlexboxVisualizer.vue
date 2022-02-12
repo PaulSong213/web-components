@@ -1,7 +1,7 @@
 <template>
   <section class='flex flex-col h-screen justify-center bg-slate-500 bg-gradient-to-b from-slate-500 via-slate-600 to-slate-500 px-2'>
-    <div class='mx-auto w-full max-w-md rounded-sm bg-amber-300  h-64 shadow-xl  relative grid grid-cols-12 overflow-hidden gap-5'>
-      <div class="pt-4 space-y-5 col-span-5 px-4">
+    <div class='mx-auto w-full max-w-md rounded-sm bg-amber-300  sm:h-64 shadow-xl  relative grid sm:grid-cols-12 overflow-hidden sm:gap-5 p-2'>
+      <div class="pt-4 space-y-5 col-span-5 px-4 row-start-2 sm:row-start-1">
         <h6 class="font-semibold text-md text-center leading-6">CSS Flex Container <br/> Visualizer</h6>
         <section class="flex flex-col overflow-auto space-y-3 small-scroll h-40 pl-2">
           <div v-for="(property,index) in properties" :key="index" class="space-y-2 opacity-70 hover:opacity-100 transition-all">
@@ -18,7 +18,7 @@
           </div>
         </section>
       </div>
-      <div class="h-full flex flex-col justify-center my-auto relative">
+      <div class="h-full flex flex-col w-full justify-center my-auto relative">
         <div class="m-auto h-44 w-60 bg-red-900/20 p-2 relative transition-all duration-1000" >
           <div v-for="(block,index) in blocks " :key="index" class="h-6 w-8 transform transition-all duration-1000 absolute" :class="[block.color]"  :style="{left : block.left + 'px' , top: block.top + 'px'}" >
         </div>

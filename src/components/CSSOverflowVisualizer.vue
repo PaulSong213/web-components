@@ -1,9 +1,9 @@
 <template>
   <section class='flex flex-col h-screen justify-center bg-slate-500 bg-gradient-to-b from-slate-500 via-slate-600 to-slate-500 px-2'>
-    <div class='mx-auto w-full max-w-md rounded-sm bg-amber-300 h-80 sm:h-64 shadow-xl  relative grid grid-cols-12 gap-2 overflow-hidden p-5'>
+    <div class='mx-auto w-full max-w-md rounded-sm bg-amber-300 sm:h-64 shadow-xl  relative grid sm:grid-cols-12 gap-5 overflow-hidden p-5'>
       <div class="pt-4  col-span-5">
         <h6 class="font-semibold text-xl text-center leading-5">CSS Overflow <br/> Visualizer</h6>
-        <div class="pl-3 pt-3 space-y-2">
+        <div class="pl-3 pt-3 space-y-2 h-40 overflow-auto">
             <button  v-for="(overflow,index) in overflows " :key="index" @click="selectedIndex = index" class="font-medium  p-1 rounded-full hover:first-letter:shadow-sm w-full transition-all " :class="[index === selectedIndex ? 'bg-amber-400/60 cursor-default' : 'hover:bg-amber-400 active:bg-amber-400/60', '' ]">
             <h6 >{{overflow.name}}</h6>
           </button>

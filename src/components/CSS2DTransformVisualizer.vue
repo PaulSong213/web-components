@@ -1,9 +1,9 @@
 <template>
   <section class='flex flex-col h-screen justify-center bg-slate-500 bg-gradient-to-b from-slate-500 via-slate-600 to-slate-500 px-2'>
-    <div class='mx-auto w-full max-w-md rounded-sm bg-amber-300  h-64 shadow-xl  relative grid grid-cols-12 overflow-hidden'>
-      <div class="pt-4 pl-4 space-y-4 col-span-7">
+    <div class='mx-auto w-full max-w-md rounded-sm bg-amber-300  sm:h-64 shadow-xl  relative grid sm:grid-cols-12 overflow-hidden gap-5 sm:gap-0 p-4'>
+      <div class="pt-4 pl-4 space-y-4 col-span-7 row-start-2 sm:row-start-1">
         <h6 class="font-semibold text-xl text-center leading-5">CSS 2D Transform <br/> Visualizer</h6>
-        <div class="px-4">
+        <div class="px-4 h-40 overflow-auto">
           <button  v-for="(display,index) in displays " :key="index" @click="selectedIndex = index" class="font-medium  p-1 rounded-full shadow-sm w-full transition-all text-xs" :class="[index === selectedIndex ? 'bg-amber-400/60 cursor-default' : 'hover:bg-amber-400 active:bg-amber-400/60', '' ]">
             <h6 >{{display.name}}</h6>
           </button>

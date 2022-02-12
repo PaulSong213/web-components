@@ -31,7 +31,7 @@
         <div class="h-4 w-4 transform scale-125 rounded-full absolute z-10 transition-all duration-1000 delay-500" :class="[circleColor]" :style="{top : circle.top + 'rem', left : circle.left + 'rem' }" ></div>
         <div class="h-4 w-4 transform scale-125 bg-red-500 absolute top-16 left-28 z-10"></div>
         <div class="h-4 w-4  scale-125 bg-orange-500 transform rotate-45 absolute top-20 left-20 z-10"></div>
-        <div class="h-2 w-6  scale-125 bg-purple-500 transform absolute top-20 left-36 z-10"></div>
+        <div class="h-2 w-6  scale-125 bg-purple-500 transform absolute top-20 left-2 z-10"></div>
       </div>
     </div>
   </section>
