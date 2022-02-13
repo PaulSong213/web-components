@@ -61,7 +61,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .small-scroll::-webkit-scrollbar {
   width: 4px;
-  height: 4x;
+  height: 4px;
   border-radius: 100%;
 }
 

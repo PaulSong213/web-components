@@ -6,6 +6,11 @@ const routes = [
     name: 'Introduction',
     component: () => import('../components/Introduction.vue')
   },
+  {
+    path: '/js-events-visualizer',
+    name: 'JS Events Visualizer',
+    component: () => import('../components/JSEventsVisualizer.vue')
+  },
   ...route1,
   {
     path: '/cube-timer',
