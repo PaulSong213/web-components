@@ -26,25 +26,25 @@
         4. Erase the greenscreen
       </div>
     </div>
-    <div class="w-full sm:w-[28rem] h-20 bg-white mx-auto rounded-2xl shadow-md flex justify-between px-4 transform">
+    <div class="w-full sm:w-[28rem] h-max sm:h-20 bg-white mx-auto rounded-2xl shadow-md flex justify-between px-2 sm:px-4 transform">
       <div class="my-auto flex space-x-4">
-        <div class="h-14 w-14 rounded-full bg-gray-300 my-auto relative overflow-hidden border border-slate-400">
+        <div class="h-12 sm:h-14 w-12 sm:w-14 rounded-full bg-gray-300 my-auto relative overflow-hidden border border-slate-400">
           <img class="absolute object-cover min-w-full min-h-full" :src="profileImage" >
         </div>
-        <div class="my-auto text-lg sm:text-xl font-bold w-32 sm:w-48 h-20 overflow-clip flex text-slate-800">
+        <div class="my-auto text-md sm:text-xl font-bold w-40 sm:w-48 h-20 overflow-clip flex text-slate-800">
           <h6 class="my-auto leading-5">{{profileName}}</h6>
         </div>
       </div>
-      <div class="my-auto flex space-x-2">
-        <button @click="isSubrcibed = !isSubrcibed" class=" text-white p-2 text-sm rounded-md font-bold uppercase transition-all duration-500" :class="[isSubrcibed ? 'bg-slate-800' : 'bg-red-600' , '' ]">
+      <div class="my-auto flex sm:space-x-2">
+        <button @click="isSubrcibed = !isSubrcibed" class=" text-white p-2 text-[8px]  sm:text-sm rounded-md font-bold uppercase transition-all duration-500" :class="[isSubrcibed ? 'bg-slate-800' : 'bg-red-600' , '' ]">
           <h6 v-if="!isSubrcibed">Subscribe</h6>
           <h6 v-else>Subscribed</h6>
         </button>
-        <button  @click="isNotified = !isNotified" class="text-2xl -mb-2  transition-all duration-500 overflow-hidden relative" :class="[isNotified ? 'text-slate-800' : 'text-slate-500' , '', isSubrcibed ? 'w-8' : 'w-0',''  ]">
-          <div v-if="isNotified" class="text-sm absolute rotate-[60deg] top-1.5 right-1">
+        <button  @click="isNotified = !isNotified" class="text-xl sm:text-2xl -mb-2  transition-all duration-500 overflow-hidden relative" :class="[isNotified ? 'text-slate-800' : 'text-slate-500' , '', isSubrcibed ? 'w-8' : 'w-0',''  ]">
+          <div v-if="isNotified" class="text-xs sm:text-sm absolute rotate-[60deg] top-1.5 right-1">
             <ion-icon name="wifi"></ion-icon>
           </div>
-          <div v-if="isNotified" class="text-sm absolute rotate-[-60deg] top-1.5 left-1">
+          <div v-if="isNotified" class="text-xs sm:text-sm absolute rotate-[-60deg] top-1.5 left-1">
             <ion-icon name="wifi"></ion-icon>
           </div>
           <ion-icon class="pointer-events-none" name="notifications"></ion-icon>
