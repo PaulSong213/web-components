@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/subscribe-template',
+    name: 'Subscribe Template',
+    component: () => import('../components/SubscribeTemplate.vue')
+  },
+  {
     path: '/deliver',
     name: 'Deliver',
     component: () => import('../components/Deliver.vue')
