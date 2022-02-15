@@ -1,7 +1,7 @@
 <template>
-  <section class='flex flex-col pt-20 space-y-20 h-screen bg-[#6FEE1E] px-2'>
-    <div class="bg-white w-[28rem] rounded-md mx-auto py-4 px-2 gap-4  grid grid-cols-12">
-      <div class="flex flex-col space-y-2 col-span-8">
+  <section class='flex flex-col pt-20 space-y-20 h-full min-h-screen bg-[#6FEE1E] px-2 overflow-hidden'>
+    <div class="bg-white w-5/6 sm:w-[28rem] rounded-md mx-auto py-4 px-2 gap-4  grid grid-col-2 sm:grid-cols-12">
+      <div class="flex flex-col space-y-2 col-span-8 row-start-2 sm:row-start-1">
         <div class="flex space-x-4 ml-auto">
           <label class="text-purple-700 text-right font-semibold text-xs my-auto w-max" for="name">Profile Image</label>
           <input class="block w-full text-sm text-slate-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-violet-50 file:text-violet-700 hover:file:bg-violet-100 mx-auto" v-on:change="setProfile" accept="image/*" type='file' ref="imgInput" />
@@ -26,13 +26,13 @@
         4. Erase the greenscreen
       </div>
     </div>
-    <div class="w-[28rem] h-20 bg-white mx-auto rounded-2xl shadow-md flex justify-between px-4">
+    <div class="w-full sm:w-[28rem] h-20 bg-white mx-auto rounded-2xl shadow-md flex justify-between px-4 transform">
       <div class="my-auto flex space-x-4">
         <div class="h-14 w-14 rounded-full bg-gray-300 my-auto relative overflow-hidden border border-slate-400">
           <img class="absolute object-cover min-w-full min-h-full" :src="profileImage" >
         </div>
-        <div class="my-auto text-xl font-bold w-48 h-20 overflow-clip flex text-slate-800">
-          <h6 class="my-auto">{{profileName}}</h6>
+        <div class="my-auto text-lg sm:text-xl font-bold w-32 sm:w-48 h-20 overflow-clip flex text-slate-800">
+          <h6 class="my-auto leading-5">{{profileName}}</h6>
         </div>
       </div>
       <div class="my-auto flex space-x-2">
