@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/deliver',
+    name: 'Deliver',
+    component: () => import('../components/Deliver.vue')
+  },
+  {
     path: '/js-events-visualizer',
     name: 'JS Events Visualizer',
     component: () => import('../components/JSEventsVisualizer.vue')
