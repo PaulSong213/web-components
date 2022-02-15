@@ -1,7 +1,7 @@
 <template>
   <section class='flex flex-col h-screen justify-center bg-cyan-500 px-2 bg-gradient-to-br from-cyan-500 via-emerald-400 to-cyan-500'>
     
-    <div @click="onDelivery = true" class="w-96 h-32 bg-slate-900 rounded-full mx-auto relative overflow-hidden" :class="[onDelivery ? 'cursor-default' : 'cursor-pointer' ,'' ]">
+    <div @click="onDelivery = true" class="w-96 h-32 bg-slate-900 rounded-full mx-auto relative overflow-hidden transform scale-75 sm:scale-100" :class="[onDelivery ? 'cursor-default' : 'cursor-pointer' ,'' ]">
       <div class="absolute top-1/2 z-30 w-24 -translate-y-1/2 transition-all duration-[5000ms] ease-out" :class="[!onDelivery ? 'left-8' : 'left-96' , '' ]">
         <img src="https://img.icons8.com/color/2x/truck-top-view.png" alt="">
       </div>

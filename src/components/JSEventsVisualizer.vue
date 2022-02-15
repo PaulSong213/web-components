@@ -1,7 +1,7 @@
 <template>
   <section class='flex flex-col h-screen justify-center bg-slate-500 bg-gradient-to-b from-slate-400 via-slate-500 to-slate-400 px-2'>
-    <div class='mx-auto w-full max-w-md rounded-sm bg-green-300  h-64 shadow-xl  relative grid grid-cols-12 overflow-hidden'>
-      <div class="pt-4 pl-4 space-y-4 col-span-8">
+    <div class='mx-auto w-full max-w-md rounded-sm bg-green-300  sm:h-64 p-2 shadow-xl  relative grid grid-cols-1 sm:grid-cols-12 overflow-hidden'>
+      <div class="pt-4 pl-4 space-y-4 col-span-8 row-start-2 sm:row-start-1">
         <h6 class="font-semibold text-xl text-center leading-5">Javascript Events <br/> Visualizer</h6>
         <div class="h-40 overflow-auto small-scroll mx-auto w-max">
           <button  v-for="(display,index) in displays " :key="index" @click="selectedIndex = index" class="font-medium  p-1 rounded-full hover:shadow-sm w-full transition-all flex text-md" :class="[index === selectedIndex ? 'bg-green-400/60 cursor-default ' : 'hover:bg-green-400 active:bg-green-400/60', '' ]">
@@ -13,7 +13,7 @@
         </div>
       </div>
       <section >
-      <div class="h-full my-auto flex flex-col justify-center relative col-span-4">
+      <div class="h-full my-auto flex flex-col justify-center w-full mx-auto relative col-span-4">
         <div class="w-32 h-32 rounded-md mx-auto select-none transition-all duration-500 flex flex-col justify-center text-center text-white font-bold text-xs p-2" :class="[colors[colorIndex]]" id="boxModel" >
         </div>
       </div> 
