@@ -1,6 +1,6 @@
 <template>
   <section class='flex flex-col h-screen justify-center bg-purple-400 bg-gradient-to-b from-purple-400 to-purple-500 px-2'>
-    <div class='mx-auto w-full max-w-md rounded-sm bg-gray-100  h-64 shadow-xl relative grid grid-cols-2 p-10 gap-5'>
+    <div class='mx-auto w-full max-w-md rounded-sm bg-gray-100  h-64 shadow-xl relative grid grid-cols-2 p-5 sm:p-10 gap-3 sm:gap-5'>
       <div v-for="(card, index) in cards " :key="index" class="w-full h-full  my-auto space-y-2">
         <div class="h-32 w-full bg-gray-400 rounded-md bg-gradient-to-br overflow-hidden shadow-sm border border-gray-200" :class="[isLoading ? 'animate-pulse' : '','' , card.gradient]">
             <img class="relative min-w-full min-h-full transition-all duration-300" :class="[isLoading ? 'opacity-0' : 'opacity-100' ,'' ]" :src="card.image" alt="">
