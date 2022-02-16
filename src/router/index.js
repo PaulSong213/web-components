@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/gradient-skeleton-loader',
+    name: 'Gradient Skeleton Loader',
+    component: () => import('../components/GradientSkeletonLoader.vue')
+  },
+  {
     path: '/subscribe-template',
     name: 'Subscribe Template',
     component: () => import('../components/SubscribeTemplate.vue')
