@@ -1,12 +1,12 @@
 <template>
   <section class='flex flex-col h-screen justify-center bg-sky-500 bg-gradient-to-br from-sky-500 to-green-500 px-2'>
     <div class='mx-auto w-full max-w-md rounded-sm bg-slate-200  h-64 shadow-xl  justify-between relative grid grid-cols-12'>
-      <div class="col-span-5 flex flex-col p-10 space-y-2 h-60 overflow-auto">
-        <button v-for="(alert,index) in alertTypes " :key="index" @click="addNewAlert(alert)" class=" hover:bg-opacity-80 active:bg-opacity-100 transition-all rounded-md mx-auto py-2 w-20 text-white font-medium text-xs select-none" :class="[alert.buttonColor]" >
+      <div class="col-span-3 sm:col-span-5 flex flex-col py-5 px-1 sm:p-10 space-y-2 h-60 overflow-auto">
+        <button v-for="(alert,index) in alertTypes " :key="index" @click="addNewAlert(alert)" class=" hover:bg-opacity-80 active:bg-opacity-100 transition-all rounded-md mx-auto py-2 w-16 sm:w-20 text-white font-medium text-xs select-none" :class="[alert.buttonColor]" >
           {{alert.name}}
         </button>
       </div>
-      <transition-group tag="div" name="list" class="col-span-7 relative flex-col-reverse gap-2 h-60 overflow-hidden flex pt-10 pl-3">
+      <transition-group tag="div" name="list" class="col-span-9 sm:col-span-7 relative flex-col-reverse gap-2 h-60 overflow-hidden flex pt-10 pl-3">
         <div v-for="(alert,index) in activeAlerts " :key="index" @click="delete this.activeAlerts[index]"  class="h-20 w-56 rounded-md border-l-4  flex px-2 gap-2 hover:scale-105  select-none transition-all cursor-pointer relative flex-shrink-0" :class="[alert.bgColor, alert.border]" >
           <div class="h-14 w-14 rounded-lg text-5xl bg-white my-auto  flex flex-shrink-0" :class="[alert.iconColor]" >
             <ion-icon class="m-auto" :name="alert.icon"></ion-icon>
