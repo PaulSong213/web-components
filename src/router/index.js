@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/alert',
+    name: 'Alert',
+    component: () => import('../components/Alert.vue')
+  },
+  {
     path: '/gradient-skeleton-loader',
     name: 'Gradient Skeleton Loader',
     component: () => import('../components/GradientSkeletonLoader.vue')
