@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/anonymous-profile',
+    name: 'Anonymous Profile',
+    component: () => import('../components/AnonymousProfile.vue')
+  },
+  {
     path: '/alert',
     name: 'Alert',
     component: () => import('../components/Alert.vue')
