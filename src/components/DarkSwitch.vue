@@ -5,7 +5,7 @@
   >
     <button
       @click="isDarkMode = !isDarkMode"
-      class="flex mx-auto space-x-1 scale-125 text-7xl"
+      class="flex mx-auto space-x-1 text-6xl md:scale-125 sm:text-7xl"
       :class="[isDarkMode ? 'text-white' : 'text-slate-900', '']"
     >
       <h6 class="title">SW</h6>
