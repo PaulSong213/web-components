@@ -7,6 +7,16 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/dark-switch',
+    name: 'DarkSwitch',
+    component: () => import('../components/DarkSwitch.vue')
+  },
+  {
+    path: '/anonymous-profile',
+    name: 'Anonymous Profile',
+    component: () => import('../components/AnonymousProfile.vue')
+  },
+  {
     path: '/anonymous-profile',
     name: 'Anonymous Profile',
     component: () => import('../components/AnonymousProfile.vue')
