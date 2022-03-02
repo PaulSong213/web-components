@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/page-indicator',
+    name: 'Page Indicator',
+    component: () => import('../components/PageIndicator.vue')
+  },
+  {
     path: '/dark-switch',
     name: 'DarkSwitch',
     component: () => import('../components/DarkSwitch.vue')
