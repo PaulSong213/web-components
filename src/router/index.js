@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/basketball-toggle',
+    name: 'Basketball Toggle',
+    component: () => import('../components/BasketballToggle.vue')
+  },
+  {
     path: '/page-indicator',
     name: 'Page Indicator',
     component: () => import('../components/PageIndicator.vue')
