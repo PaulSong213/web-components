@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/delete-document',
+    name: 'Delete Document',
+    component: () => import('../components/DeleteDocument.vue')
+  },
+  {
     path: '/basketball-toggle',
     name: 'Basketball Toggle',
     component: () => import('../components/BasketballToggle.vue')
