@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/on-off-toggle',
+    name: 'On Off Toggle',
+    component: () => import('../components/OnOffToggle.vue')
+  },
+  {
     path: '/delete-document',
     name: 'Delete Document',
     component: () => import('../components/DeleteDocument.vue')
