@@ -5,7 +5,7 @@
     <div
       class="relative flex justify-between w-full h-64 max-w-md mx-auto bg-stone-100 shadow-xl rounded-xl overflow-hidden"
     >
-      <div class="h-44 w-9/12 bg-white shadow-xl rounded-br-2xl z-40 px-7 py-10 overflow-hidden space-y-5">
+      <div class="h-44 w-full sm:w-9/12 bg-white shadow-xl rounded-br-2xl z-40 px-7 py-10 overflow-hidden space-y-5">
         <div class="flex space-x-3">
           <button class="border border-slate-900 w-12 h-12 rounded-lg flex items-center shrink-0">
             <ion-icon class="m-auto" name="chevron-back-outline"></ion-icon>
