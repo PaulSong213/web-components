@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/share-option',
+    name: 'Share Option',
+    component: () => import('../components/ShareOption.vue')
+  },
+  {
     path: '/on-off-toggle',
     name: 'On Off Toggle',
     component: () => import('../components/OnOffToggle.vue')
