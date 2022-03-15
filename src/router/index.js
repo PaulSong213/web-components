@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/moon-dark-mode',
+    name: 'Moon Dark Mode',
+    component: () => import('../components/MoonDarkMode.vue')
+  },
+  {
     path: '/share-option',
     name: 'Share Option',
     component: () => import('../components/ShareOption.vue')
