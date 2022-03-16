@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/radio-button',
+    name: 'Radio Button',
+    component: () => import('../components/RadioButton.vue')
+  },
+  {
     path: '/moon-dark-mode',
     name: 'Moon Dark Mode',
     component: () => import('../components/MoonDarkMode.vue')
