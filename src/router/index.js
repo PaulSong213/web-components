@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/input-background',
+    name: 'Input Background',
+    component: () => import('../components/InputBackground.vue')
+  },
+  {
     path: '/radio-button',
     name: 'Radio Button',
     component: () => import('../components/RadioButton.vue')
