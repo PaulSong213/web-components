@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/menu-text',
+    name: 'Menu Text',
+    component: () => import('../components/MenuText.vue')
+  },
+  {
     path: '/input-background',
     name: 'Input Background',
     component: () => import('../components/InputBackground.vue')
