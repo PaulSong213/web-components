@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/feedback-toggle',
+    name: 'Feedback Toggle',
+    component: () => import('../components/FeedbackToggle.vue')
+  },
+  {
     path: '/menu-text',
     name: 'Menu Text',
     component: () => import('../components/MenuText.vue')
