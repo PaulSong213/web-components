@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/dropdown',
+    name: 'Dropdown',
+    component: () => import('../components/Dropdown.vue')
+  },
+  {
     path: '/feedback-toggle',
     name: 'Feedback Toggle',
     component: () => import('../components/FeedbackToggle.vue')
