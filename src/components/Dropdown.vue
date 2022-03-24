@@ -40,7 +40,7 @@
 export default {
   data() {
     return {
-      isDropdownOpen: true,
+      isDropdownOpen: false,
       dropdownSelectedIndex: 0,
     }
   },

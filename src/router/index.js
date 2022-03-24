@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/circular-toggle',
+    name: 'Circular Toggle',
+    component: () => import('../components/CircularToggle.vue')
+  },
+  {
     path: '/dropdown',
     name: 'Dropdown',
     component: () => import('../components/Dropdown.vue')
