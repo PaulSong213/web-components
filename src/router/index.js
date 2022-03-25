@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/animated-filter',
+    name: 'Animated Filter',
+    component: () => import('../components/AnimatedFilter.vue')
+  },
+  {
     path: '/circular-toggle',
     name: 'Circular Toggle',
     component: () => import('../components/CircularToggle.vue')
