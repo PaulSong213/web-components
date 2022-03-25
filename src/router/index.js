@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/minimal-check-list',
+    name: 'Minimal Check List',
+    component: () => import('../components/MinimalCheckList.vue')
+  },
+  {
     path: '/animated-filter',
     name: 'Animated Filter',
     component: () => import('../components/AnimatedFilter.vue')
