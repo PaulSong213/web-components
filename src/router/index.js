@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/animated-close-button',
+    name: 'Animated Close Button',
+    component: () => import('../components/AnimatedCloseButton.vue')
+  },
+  {
     path: '/minimal-check-list',
     name: 'Minimal Check List',
     component: () => import('../components/MinimalCheckList.vue')
