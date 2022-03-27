@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/lock-unlock',
+    name: 'Lock Unlock',
+    component: () => import('../components/LockUnlock.vue')
+  },
+  {
     path: '/animated-close-button',
     name: 'Animated Close Button',
     component: () => import('../components/AnimatedCloseButton.vue')
