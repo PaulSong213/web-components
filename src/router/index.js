@@ -7,6 +7,12 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/title-slide-navbar',
+    name: 'Title Slide Navbar',
+    component: () => import('../components/TitleSlideNavbar.vue')
+  },
+  
+  {
     path: '/lock-unlock',
     name: 'Lock Unlock',
     component: () => import('../components/LockUnlock.vue')
