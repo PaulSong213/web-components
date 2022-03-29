@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/animated-burger-button',
+    name: 'Animated Burger Button',
+    component: () => import('../components/AnimatedBurgerButton.vue')
+  },
+  {
     path: '/title-slide-navbar',
     name: 'Title Slide Navbar',
     component: () => import('../components/TitleSlideNavbar.vue')
