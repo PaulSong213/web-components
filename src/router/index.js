@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/record-control',
+    name: 'Record Control',
+    component: () => import('../components/RecordControl.vue')
+  },
+  {
     path: '/animated-burger-button',
     name: 'Animated Burger Button',
     component: () => import('../components/AnimatedBurgerButton.vue')
