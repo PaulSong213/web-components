@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/align-text',
+    name: 'Align Text',
+    component: () => import('../components/AlignText.vue')
+  },
+  {
     path: '/record-control',
     name: 'Record Control',
     component: () => import('../components/RecordControl.vue')
