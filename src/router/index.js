@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/phone-call',
+    name: 'Phone Call',
+    component: () => import('../components/PhoneCall.vue')
+  },
+  {
     path: '/align-text',
     name: 'Align Text',
     component: () => import('../components/AlignText.vue')
