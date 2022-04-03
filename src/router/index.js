@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/animated-pin',
+    name: 'Animated Pin',
+    component: () => import('../components/AnimatedPin.vue')
+  },
+  {
     path: '/phone-call',
     name: 'Phone Call',
     component: () => import('../components/PhoneCall.vue')
