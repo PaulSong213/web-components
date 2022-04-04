@@ -16,10 +16,10 @@
       </div>
     </div>
 
-    <a id="nav" v-if="!showBottomNavigation" href="https://github.com/PaulSong213/web-components.git" class="absolute z-50 flex justify-between px-4 py-2 space-x-1 text-xs font-bold text-center text-white bg-green-500 bg-opacity-50 border rounded-full shadow-sm select-none w-28 bottom-10 left-10 border-white/30">
+    <a id="nav" v-if="showBottomNavigation" href="https://github.com/PaulSong213/web-components.git" class="absolute z-50 flex justify-between px-4 py-2 space-x-1 text-xs font-bold text-center text-white bg-green-500 bg-opacity-50 border rounded-full shadow-sm select-none w-28 bottom-10 left-10 border-white/30">
       <span class="m-auto">Source Code</span> 
     </a>
-    <a id="nav" v-if="!showBottomNavigation" href="https://www.upwork.com/freelancers/~019c3e72e8b98317a9" class="absolute z-50 flex justify-between px-4 py-2 space-x-1 text-xs font-bold text-center text-white bg-green-500 bg-opacity-50 border rounded-full shadow-sm select-none bottom-20 left-10 border-white/30 w-28">
+    <a id="nav" v-if="showBottomNavigation" href="https://www.upwork.com/freelancers/~019c3e72e8b98317a9" class="absolute z-50 flex justify-between px-4 py-2 space-x-1 text-xs font-bold text-center text-white bg-green-500 bg-opacity-50 border rounded-full shadow-sm select-none bottom-20 left-10 border-white/30 w-28">
       <span class="m-auto">Hire me</span>
     </a>
 

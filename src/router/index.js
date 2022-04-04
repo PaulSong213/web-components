@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/animated-add-cart',
+    name: 'Animated Add Cart',
+    component: () => import('../components/AnimatedAddCart.vue')
+  },
+  {
     path: '/animated-pin',
     name: 'Animated Pin',
     component: () => import('../components/AnimatedPin.vue')
