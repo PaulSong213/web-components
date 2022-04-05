@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/pay-finger-print',
+    name: 'Pay Finger Print',
+    component: () => import('../components/PayFingerPrint.vue')
+  },
+  {
     path: '/animated-add-cart',
     name: 'Animated Add Cart',
     component: () => import('../components/AnimatedAddCart.vue')
