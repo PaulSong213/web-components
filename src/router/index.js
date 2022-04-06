@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/number-pagination',
+    name: 'Number Pagination',
+    component: () => import('../components/NumberPagination.vue')
+  },
+  {
     path: '/pay-finger-print',
     name: 'Pay Finger Print',
     component: () => import('../components/PayFingerPrint.vue')
