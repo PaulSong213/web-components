@@ -7,6 +7,12 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/category-selector',
+    name: 'Category Selector',
+    component: () => import('../components/CategorySelector.vue')
+  },
+  
+  {
     path: '/number-pagination',
     name: 'Number Pagination',
     component: () => import('../components/NumberPagination.vue')
