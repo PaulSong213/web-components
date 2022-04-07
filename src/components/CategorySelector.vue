@@ -65,7 +65,7 @@
 export default {
   data() {
     return {
-      isSelecting: false,
+      isSelecting: true,
       selectedCategoryIndex: 0,
       categories: [
         {
