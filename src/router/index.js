@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/minimal-align-text',
+    name: 'Minimal Align Text',
+    component: () => import('../components/MinimalAlignText.vue')
+  },
+  {
     path: '/category-selector',
     name: 'Category Selector',
     component: () => import('../components/CategorySelector.vue')
