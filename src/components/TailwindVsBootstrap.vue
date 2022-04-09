@@ -27,7 +27,7 @@
       </section>
       <section class="flex flex-col">
         <div>
-          <h6 class="text-sm font-bold text-center text-purple-500">Tailwindcss</h6>
+          <h6 class="text-sm font-bold text-center text-purple-500">Bootstrap</h6>
           <img
             class="w-6 mx-auto"
             src="https://miro.medium.com/max/320/0*_rAD9NgK7l6KSlNc.png"
