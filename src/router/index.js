@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/tailwind-vs-bootstrap',
+    name: 'Tailwind vs Bootstrap',
+    component: () => import('../components/TailwindVsBootstrap.vue')
+  },
+  {
     path: '/minimal-align-text',
     name: 'Minimal Align Text',
     component: () => import('../components/MinimalAlignText.vue')
