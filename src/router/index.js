@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/rounded-toggle',
+    name: 'Rounded Toggle',
+    component: () => import('../components/RoundedToggle.vue')
+  },
+  {
     path: '/tailwind-vs-bootstrap',
     name: 'Tailwind vs Bootstrap',
     component: () => import('../components/TailwindVsBootstrap.vue')
