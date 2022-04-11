@@ -7,6 +7,11 @@ const routes = [
     component: () => import('../components/Introduction.vue')
   },
   {
+    path: '/tailwind-bootstrap-conflict',
+    name: 'Tailwind Bootstrap Conflict',
+    component: () => import('../components/TaillwindBootstrapConflict.vue')
+  },
+  {
     path: '/rounded-toggle',
     name: 'Rounded Toggle',
     component: () => import('../components/RoundedToggle.vue')
