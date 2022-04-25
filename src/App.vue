@@ -33,7 +33,7 @@
     </div>
     <div
       v-if="isOtherProjectsVisible"
-      class="absolute z-50 flex flex-col gap-4 py-4 space-x-1 text-xs font-bold text-center text-white bg-green-500 bg-opacity-50 border rounded-md shadow-sm select-none w-full max-w-sm bottom-32 left-10 border-white/30"
+      class="absolute z-50 flex flex-col gap-4 py-4 space-x-1 text-xs font-bold text-center text-white bg-green-500 bg-opacity-50 border rounded-md shadow-sm select-none w-full max-w-[80vw] sm:max-w-sm  bottom-32 left-10 border-white/30"
     >
       <a v-for="(otherProject, index) in otherProjects" :key="index" :href="otherProject.link" class="text-md hover:underline underline-offset-4"> {{otherProject.title}} </a>
     </div>
