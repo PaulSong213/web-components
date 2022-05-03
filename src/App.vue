@@ -31,12 +31,14 @@
         <ion-icon class="pointer-events-none" name="caret-forward-outline"></ion-icon>
       </div>
     </div>
+    <Transition name="fade">
     <div
       v-if="isOtherProjectsVisible"
       class="absolute z-50 flex flex-col gap-4 py-4 space-x-1 text-xs font-bold text-center text-white bg-green-500 bg-opacity-50 border rounded-md shadow-sm select-none w-full max-w-[80vw] sm:max-w-sm  bottom-32 left-10 border-white/30"
     >
       <a v-for="(otherProject, index) in otherProjects" :key="index" :href="otherProject.link" class="text-md hover:underline underline-offset-4"> {{otherProject.title}} </a>
     </div>
+    </Transition>
     <button
       v-if="showBottomNavigation"
       @click="isOtherProjectsVisible = !isOtherProjectsVisible "
@@ -70,9 +72,13 @@ export default {
       isOtherProjectsVisible : false,
       otherProjects : [
         {
+          title : "Point of Sale",
+          link : "https://github.com/PaulSong213/PointOfSale"
+        },
+        {
           title : "DataTables Example",
           link : "https://github.com/PaulSong213/datatables-example"
-        }
+        },
       ]
     };
   },
@@ -81,7 +87,7 @@ export default {
   },
   methods: {
     willShowBottomNavigation() {
-      if (import.meta.env.VITE_IS_MAKING_VIDEO) this.showBottomNavigation = false;
+      if (import.meta.env.VITE_IS_MAKING_VIDEO) this.showBottomNavigation = true;
     },
     moveToNextPath(isNext = true) {
       if (isNext) {
