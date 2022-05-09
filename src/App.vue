@@ -72,6 +72,10 @@ export default {
       isOtherProjectsVisible : false,
       otherProjects : [
         {
+          title : "Web dev Roadmap",
+          link : "https://www.figma.com/file/qUs5tSVOJTsQfQt6IPX8kK/Web-dev-Roadmap?node-id=0%3A1"
+        },
+        {
           title : "Point of Sale",
           link : "https://github.com/PaulSong213/PointOfSale"
         },
@@ -79,6 +83,7 @@ export default {
           title : "DataTables Example",
           link : "https://github.com/PaulSong213/datatables-example"
         },
+        
       ]
     };
   },
