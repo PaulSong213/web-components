@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-gray-950">
     <!-- Gallery grid -->
     <main class="p-4">
-      <div class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+      <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
         <ComponentCard
           v-for="route in galleryRoutes"
           :key="route.path"
