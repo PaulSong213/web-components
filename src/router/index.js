@@ -2,11 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import route1 from './route1'
 const routes = [
   {
-    path: '/introduction',
-    name: 'Introduction',
-    component: () => import('../components/Introduction.vue')
-  },
-  {
     path: '/rounded-toggle',
     name: 'Rounded Toggle',
     component: () => import('../components/RoundedToggle.vue')
@@ -21,7 +16,7 @@ const routes = [
     name: 'Category Selector',
     component: () => import('../components/CategorySelector.vue')
   },
-  
+
   {
     path: '/number-pagination',
     name: 'Number Pagination',
@@ -67,7 +62,7 @@ const routes = [
     name: 'Title Slide Navbar',
     component: () => import('../components/TitleSlideNavbar.vue')
   },
-  
+
   {
     path: '/lock-unlock',
     name: 'Lock Unlock',
@@ -314,7 +309,7 @@ const routes = [
     name: 'Online Course Maker',
     component: () => import('../components/OnlineCourseMaker.vue')
   },
-  
+
   {
     path: '/hexagon-navbar',
     name: 'Hexagon Navbar',
@@ -560,9 +555,9 @@ const routes = [
     name: 'ToggleDarkMode',
     component: () => import('../components/ToggleDarkMode.vue')
   },
-  { 
+  {
     path: "/:catchAll(.*)",
-    component: () => import('../components/PageNotFound.vue')   
+    component: () => import('../components/PageNotFound.vue')
   }
 ]
 

@@ -68,9 +68,11 @@ const windowHeight = ref(window.innerHeight)
 const isHovered = ref(false)
 const asyncComp = ref(null)
 
-const scale = computed(() =>
-  cardWidth.value && windowWidth.value ? (cardWidth.value / windowWidth.value) * 2.25 : 0.5625
-)
+const scale = computed(() => {
+  if (!cardWidth.value || !windowWidth.value) return 0.5625
+  const multiplier = windowWidth.value < 768 ? 0.75 : 2.25
+  return (cardWidth.value / windowWidth.value) * multiplier
+})
 
 const sourceCodeUrl = computed(() => {
   const path = props.route.path.slice(1).replace(/\.vue$/, '')
